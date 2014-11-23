@@ -1,0 +1,9 @@
+== Altcoin
+A clone of the Bitcoin Protocol with some modifications. Usually all altcoins have rules incompatible with Bitcoin Protocol and have their own genesis blocks.
+
+The most notable altcoins are litecoin (uses faster block confirmation time and scrypt as a proof-of-work) and namecoin (has a special key-value storage).
+
+In theory, an altcoin can be started from an existing Bitcoin Blockchain if someone wants to support a different set of rules (although, there is no such example to date).
+
+=== See also
+Fork

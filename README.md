@@ -6,4 +6,4 @@ The problem this project aims to solve is that there is no single authoritative 
 
 ##Contributing
 
-To contribute to this book, please fork and make changes to your forked copy, then submit a pull request. Or alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right. Major contributions will receive an acknowledgment in the preface of the book.
+To contribute to this repository, please fork and make changes to your forked copy, then submit a pull request. Or alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right. Major contributions will receive an acknowledgment in the preface of the book, on the website and on the mobile apps.
