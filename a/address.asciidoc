@@ -1,0 +1,6 @@
+== Address
+A Bitcoin address is a Base58Check representation of a Hash160 of a public key with a version byte 0x00 which maps to a prefix “1”. Typically represented as text (e.g. 1CBtcGivXmHQ8ZqdPgeMfcpQNJrqTrSAcG) or as a QR code.
+
+A more recent variant of an address is a P2SH address: a hash of a spending script with a version byte 0x05 which maps to a prefix “3” (e.g. 3NukJ6fYZJ5Kk8bPjycAnruZkE5Q7UW7i8).
+
+Another variant of an address is not a hash, but a raw private key representation (e.g. 5KQntKuhYWSRXNqp2yhdXzjekYAR7US3MT1715Mbv5CyUKV6hVe). It is rarely used, only for importing/exporting private keys or printing them on paper wallets.
