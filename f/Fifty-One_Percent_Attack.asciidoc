@@ -1,0 +1,13 @@
+== 51% attack
+
+It's also known as >50% attack or a double spend attack.
+
+An attacker can make a payment, wait till the merchant accepts some number of confirmations and provides the service, then starts [mining] a parallel chain of blocks starting with a block before the transaction. This parallel blockchain then includes another transaction that spends the same outputs on some other address. When the parallel chain becomes more difficult, it is considered a main chain by all nodes and the original transaction becomes invalid.
+
+Having more than a half of the total hash rate guarantees the possibility to overtake a chain of any length, hence the name of an attack (strictly speaking, it is “more than 50%”, not 51%). Also, even 40% of the hash rate allows making a double spend, but the chances are less than 100% and are diminishing exponentially with the number of confirmations that the merchant requires.
+
+This attack is considered theoretical as owning more than 50% of hash rate might be much more expensive than any gain from a double spend.
+
+Another variant of this attack is to disrupt the network by mining empty blocks, thus censoring all transactions.
+
+This attack can be mitigated by blacklisting blocks that most of “honest” miners consider abnormal. Under normal conditions, miners and mining pools do not censor blocks and transactions as it may diminish trust in Bitcoin and thus their own investments. A 51% attack is also mitigated by using checkpoints that prevent reorganisation past a certain block.
