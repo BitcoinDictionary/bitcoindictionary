@@ -1,0 +1,3 @@
+== Brainwallet.org
+
+Utility based on Bitcoinjs to craft transactions by hand, convert private key to addresses and work with a brain wallet. 
