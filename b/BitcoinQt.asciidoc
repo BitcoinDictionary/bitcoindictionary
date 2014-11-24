@@ -1,0 +1,5 @@
+== BitcoinQt
+
+Bitcoin implementation based on original code by Satoshi Nakamoto. Includes a graphical interface for Windows, OS X and Linux (using QT) and a command-line executable BitcoinD that is typically used on servers.
+
+It is considered a reference implementation as it's the most used full node implementation, especially among miners. Other implementations must be bug-for-bug compatible with it to avoid being forked. BitcoinQT uses OpenSSL for its ECDSA operations which has its own quirks that became a part of the standard (e.g. non-canonically encoded public keys are accepted by OpenSSL without an error, so other implementations must do the same).

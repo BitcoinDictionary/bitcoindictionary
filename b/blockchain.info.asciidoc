@@ -1,0 +1,3 @@
+== blockchain.info
+
+A web service running a Bitcoin node and displaying statistics and raw data of all the transactions and blocks. It also provides a web wallet functionality with lightweight clients for Android, iOS and OS X.

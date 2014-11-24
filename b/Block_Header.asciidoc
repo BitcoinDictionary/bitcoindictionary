@@ -1,0 +1,3 @@
+== Block Header
+
+A data structure containing a previous block hash, a hash of a merkle tree of transactions, a timestamp, a difficulty and a nonce.

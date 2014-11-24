@@ -1,0 +1,3 @@
+== Bitcoinjs
+
+An incomplete JavaScript implementation of a Bitcoin client. Allows signing transactions and performing several elliptic curve operations. Used on brainwallet.org.

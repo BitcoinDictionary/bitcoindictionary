@@ -1,0 +1,11 @@
+== Block Height
+
+A sequence number of a block in the Blockchain.
+
+Height 0 refers to the genesis block. Several blocks may share the same height, but only one of them belongs to the main chain.
+
+Block height is used in lock time.
+
+=== See Also
+
+Orphan
