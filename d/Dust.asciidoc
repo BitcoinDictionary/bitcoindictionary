@@ -1,0 +1,5 @@
+== Dust
+
+A transaction output that is smaller than a typically fee required to spend it. This is not a strict part of the protocol, as any amount more than zero is valid.
+
+BitcoinQt refuses to mine or relay “dust” transactions to avoid uselessly increasing the size of unspent transaction outputs (UTXO) index.

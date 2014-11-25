@@ -1,0 +1,11 @@
+== Double Spend
+
+A fraudulent attempt to spend the same transaction output twice. There are two major ways to perform a double spend:
+
+- reverting an unconfirmed transaction by making another one which has a higher chance of being included in a block (only works with merchants accepting zero-confirmation transactions) or - by mining a parallel blockchain with a second transaction to overtake the chain where the first transaction was included.
+
+Bitcoin proof-of-work scheme makes a probabilistic guarantee of difficulty to double spend transactions included in the blockchain. The deeper transaction is recorded in the blockchain, the more expensive it is to “reverse” it.
+
+=== See also 
+
+51% attack.

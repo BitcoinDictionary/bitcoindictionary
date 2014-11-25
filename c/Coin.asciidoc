@@ -1,0 +1,3 @@
+== Coin
+
+An informal term that means either 1 bitcoin, or an unspent transaction output that can be spent.

@@ -1,0 +1,9 @@
+== Coinbase
+
+An input script of a transaction that generates new bitcoins. Or a name of that transaction itself (“coinbase transaction”).
+
+Coinbase transaction does not spend any existing transactions, but contains exactly one input which may contain any data in its script.
+
+The genesis block transaction contains a reference to a Times article from January 3rd 2009 to prove that more blocks were not created before that date. Some mining pools put their names in the coinbase transactions (so everyone can estimate how much hash rate each pool produces).
+
+Coinbase is also used to vote on a protocol change (e.g. P2SH). Miners vote by putting some agreed-upon marker in the coinbase to see how many support the change. If a majority of miners support it and expect non-mining users to accept it, then they simply start enforcing new rule. Minority then should either continue with a forked blockchain (thus producing an altcoin) or accept new rule.

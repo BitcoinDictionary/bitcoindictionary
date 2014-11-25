@@ -1,0 +1,3 @@
+== Casascius Coins
+
+Physical collectible coins produced by Mike Caldwell. Each coin contains a private key under a tamper-evident hologram. The name “Casascius” is formed from a phrase “call a spade a spade”, as a response to a name of Bitcoin itself.

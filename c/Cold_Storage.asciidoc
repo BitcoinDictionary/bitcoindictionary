@@ -1,0 +1,3 @@
+== Cold Storage
+
+A collective term for various security measures to reduce the risk of remote access to the private keys. It could be a normal computer disconnected from the internet, or a dedicated hardware wallet, or a USB stick with a wallet file, or a paper wallet.
