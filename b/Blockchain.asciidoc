@@ -1,0 +1,5 @@
+== Blockchain
+
+A public ledger of all confirmed transactions in a form of a tree of all valid blocks (including orphans). Most of the time, “blockchain” means the main chain, a single most difficult chain of blocks.
+
+The Blockchain is updated by mining blocks with new transactions. Unconfirmed transactions are not part of the blockchain. If some clients disagree on which chain is main or which blocks are valid, a fork happens.

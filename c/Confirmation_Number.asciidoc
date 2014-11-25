@@ -1,0 +1,5 @@
+== Confirmation Number
+
+Confirmation number is a measure of probability that transaction could be rejected from the main chain.
+
+“Zero confirmations” means that transaction is unconfirmed (not in any block yet). One confirmation means that the transaction is included in the latest block in the main chain. Two confirmations means the transaction is included in the block right before the latest one. And so on.

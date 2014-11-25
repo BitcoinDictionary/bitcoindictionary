@@ -1,0 +1,3 @@
+== Colored Coin
+
+A concept of adding a special meaning to certain transaction outputs. This could be used to create a tradable commodity on top of the Bitcoin protocol. For instance, a company may create 1 million shares and declare a single transaction output containing 10 BTC (1 billion satoshis) as a source of these shares. Then, some or all of these bitcoins can be moved to other addresses, sold or exchanged for anything. During a voting process or a dividend distribution, share owners can prove ownership by simply singing a particular message by the private keys associated with addresses holding bitcoins derived from the initial source.

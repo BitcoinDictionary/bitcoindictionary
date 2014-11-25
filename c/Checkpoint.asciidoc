@@ -1,0 +1,7 @@
+== Checkpoint
+
+A hash of a block before which the BitcoinQt client downloads blocks without verifying digital signatures for performance reasons.
+
+A checkpoint usually refers to a very deep block (at least several days old) when it's clear to everyone that that block is accepted by the overwhelming majority of users and reorganisation will not happen past that point.
+
+It also helps protecting most of the history from a 51% attack. Since checkpoints affect how the main chain is determined, they are part of the protocol and must be recognised by alternative clients (although, the risk of reorganisation past the checkpoint would be incredibly low).

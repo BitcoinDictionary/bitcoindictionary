@@ -1,0 +1,13 @@
+== Difficulty
+
+Difficulty is a measure of how difficult it is to find a new block compared to the easiest it can ever be. By definition, it is a maximum target divided by the current target.
+
+Difficulty is used in two Bitcoin rules:
+
+- Every block must be meet difficulty target to ensure 10 minute interval between blocks and - Transactions are considered confirmed only when belonging to a main chain which is the one with the biggest cumulative difficulty of all blocks.
+
+As of September 5, 2013 the difficulty is 86 933 018 and grows by 20-30% every two weeks.
+
+=== See also
+
+Target

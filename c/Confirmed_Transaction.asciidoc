@@ -1,0 +1,7 @@
+== Confirmed Transaction
+
+Transaction that has been included in the blockchain. Probability of transaction being rejected is measured in a number of confirmations.
+
+=== See also
+
+Confirmation Number.

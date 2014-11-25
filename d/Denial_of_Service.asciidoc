@@ -1,0 +1,7 @@
+== Denial of Service
+
+This is a form of attack on the network.
+
+Bitcoin nodes punish certain behaviour of other node by banning their IP addresses for 24 hours to avoid DoS.
+
+Also, some theoretical attacks like 51% attack may be used for network-wide DoS.

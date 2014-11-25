@@ -1,0 +1,3 @@
+== Base58Check
+
+A variant of Base58 encoding that appends first 4 bytes of Hash256 of the encoded data to that data before converting to Base58. It is used in addresses to detect typing errors.

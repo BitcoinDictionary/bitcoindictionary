@@ -1,0 +1,8 @@
+== BTC
+
+The most popular informal currency code for 1 bitcoin (defined as 100 000 000 satoshis).
+
+
+=== See also
+
+XBT

@@ -1,0 +1,7 @@
+== BitcoinD
+
+This was the original implementation of Bitcoin with a command line interface. Currently a part of BitcoinQt project. “D” stands for “daemon” per UNIX tradition to name processes running in background.
+
+=== See also
+
+BitcoinQt

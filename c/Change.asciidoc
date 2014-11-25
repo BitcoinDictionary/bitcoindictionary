@@ -1,0 +1,9 @@
+== Change
+
+Informal name for a portion of a transaction output that is returned to a sender as a “change” after spending that output. Since transaction outputs cannot be partially spent, one can spend 1 BTC out of 3 BTC output only be creating two new outputs: a “payment” output with 1 BTC sent to a payee address, and a “change” output with remaining 2 BTC (minus transaction fees) sent to the payer's addresses.
+
+BitcoinQt always uses new address from a key pool for a better privacy.
+
+Blockchain.info sends to a default address in the wallet.
+
+A common mistake when working with a paper wallet or a brain wallet is to make a change transaction to a different address and then accidentally delete it. E.g. when importing a private key in a temporary BitcoinQt wallet, making a transaction and then deleting the temporary wallet.

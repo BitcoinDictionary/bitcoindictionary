@@ -1,0 +1,9 @@
+== Bitcoin
+
+Refers to a protocol, network or a unit of currency.
+
+As a protocol, Bitcoin is a set of rules that every client must follow to accept transactions and have its own transactions accepted by other clients. Also includes a message protocol that allows nodes to connect to each other and exchange transactions and blocks.
+
+As a network, Bitcoin is all the computers that follow the same rules and exchange transactions and blocks between each other.
+
+As a unit, one Bitcoin (BTC, XBT) is defined as 100 million satoshis, the smallest units available in the current transaction format. Bitcoin is written in lower case when speaking about the amount: “I received 0.4 bitcoins.”

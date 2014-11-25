@@ -1,0 +1,5 @@
+== Block
+
+A data structure that consists of a block header and a merkle tree of transactions. Each block (except for the genesis block) references one previous block thus forming a tree called the Blockchain.
+
+Block can be thought of as a group of transactions with a timestamp and a proof-of-work attached.
