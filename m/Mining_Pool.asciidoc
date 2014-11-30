@@ -1,0 +1,5 @@
+== Mining Pool
+
+A service that allows separate owners of mining hardware to split the reward proportionally to submitted work. Since probability of finding a valid block hash is proportional to miner's hash rate, small individual miners may work for months before finding a big per-block reward.
+
+Mining pools allow more steady stream of smaller income. The pool owner determines the block contents and distributes ranges of nonce values between its workers. Normally, mining pools are centralised. P2Pool is a fully decentralised pool.

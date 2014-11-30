@@ -1,0 +1,11 @@
+== Mixing
+
+A process of exchanging coins with other persons in order to increase privacy of one's history. Sometimes it is associated with money laundering, but strictly speaking it is orthogonal to laundering. In traditional banking, a bank protects customer's privacy by hiding transactions from all 3rd parties. In Bitcoin any merchant may do a statistical analysis of one's entire payment history and determine, for instance, how many bitcoins one owns. While it's still possible to implement KYC (Know You Customer) rules on a level of every merchant, mixing allows to to separate information about one's history between the merchants.
+
+Most important use cases for mixing are:
+
+- receiving a salary as a single big monthly payment and then spending it in small transactions (“cafe sees thousands of dollars when you pay just $4”);
+
+- making a single payment and revealing connection of many small private spendings (“car dealer sees how much you are addicted to coffee”).
+
+In both cases your employer, a cafe and a car dealer may comply with KYC/AML laws and report your identity and transferred amounts, but neither of them need to know about each other. Mixing bitcoins after receiving a salary and mixing them before making a big payment solves this privacy problem.

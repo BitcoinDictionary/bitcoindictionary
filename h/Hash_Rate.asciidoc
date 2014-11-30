@@ -1,0 +1,3 @@
+== Hash Rate
+
+A measure of mining hardware performance expressed in hashes per second. As of September 5 2013, the hash rate of all Bitcoin mining nodes combined is around 647 000 Gh/s. For comparison, AMD Radeon graphics cards produce from 200 to 800 Mh/s depending on the model.

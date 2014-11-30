@@ -1,0 +1,3 @@
+== Halving
+
+Reducing the reward every 210 000 blocks (approximately every 4 years). Since the genesis block to a block 209999 in December 2012 the reward was 50 BTC. Till 2016, it will be 25 BTC, then 12.5 BTC and so on till 1 satoshi around 2140 after which point no more bitcoins will ever be created. Due to reward halving, the total supply of bitcoins is limited: only about 2100 trillion satoshis will ever be created.

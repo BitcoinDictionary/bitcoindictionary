@@ -1,0 +1,3 @@
+== Miner
+
+A person, a software or a hardware that performs mining.

@@ -1,0 +1,8 @@
+== Key
+
+Could mean an ECDSA public key or ECDSA private key, or AES symmetric encryption key. AES is not used in the protocol itself (only to encrypt the ECDSA keys and other sensitive data), so usually the word key means an ECDSA key. When talking about keys, people usually mean private keys as public keys can always be derived from a private one.
+
+=== See also
+
+Public Key
+Private Key

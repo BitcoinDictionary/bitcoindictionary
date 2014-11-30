@@ -1,0 +1,9 @@
+== Hard Fork
+
+Some people use term hard fork to stress that changing the Bitcoin protocol requires an overwhelming majority to agree with it, or some noticeable part of the economy will continue with the original blockchain, following the old rules.
+
+
+=== See also
+
+Fork
+Soft Fork

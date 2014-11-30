@@ -1,0 +1,11 @@
+== Hash Type
+
+A single byte appended to a transaction signature in the transaction input which describes how the transaction should be hashed in order to verify that signature. There are four types affecting outputs: ALL (default), SINGLE, NONE and one optional modifier ANYONECANPAY affecting the inputs (can be combined with either of the first three).
+
+- ALL requires all outputs to be hashed (thus, all outputs are signed).
+
+- SINGLE clears all output scripts but the one with the same index as the input in question.
+
+- NONE clears all outputs thus allowing changing them at will.
+
+- ANYONECANPAY removes all inputs except the current one (allows anyone to contribute independently). The actual behaviour is more subtle than this overview, you should check the actual source code for more comments.

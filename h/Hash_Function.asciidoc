@@ -1,0 +1,5 @@
+== Hash Function
+
+The Bitcoin protocol mostly uses two cryptographic hash functions: SHA-256 and RIPEMD-160. The first one is almost exclusively used in the two round hashing (Hash256), while the latter one is only used in computing an address (see also Hash160).
+
+Scripts may use not only Hash256 and Hash160, but also SHA-1, SHA-256 and RIPEMD-160.

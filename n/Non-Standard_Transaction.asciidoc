@@ -1,0 +1,7 @@
+== Non-Standard Transaction
+
+Any valid transaction that is not standard. Non-standard transactions are not relayed or mined by default BitcoinQt nodes (but are relayed and mined on Testnet). However, if anyone puts such a transaction in a block, it will be accepted by all nodes. In practice it means that unusual transactions will take more time to get included in the blockchain. If some kind of non-standard transaction becomes useful and popular, it may get named standard and adopted by users.
+
+=== See also
+
+Standard Transaction

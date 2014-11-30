@@ -1,0 +1,7 @@
+== Extra nonce
+
+A number placed in coinbase script and incremented by a miner each time the nonce 32-bit integer overflows. This is not the required way to continue mining when nonce overflows, one can also change the merkle tree of transactions or change a public key used for collecting a block reward.
+
+=== See also
+
+Nonce

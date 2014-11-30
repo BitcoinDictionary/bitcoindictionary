@@ -1,0 +1,7 @@
+== Mining
+
+A process of finding valid hashes of a block header by iterating millions of variants of block headers (using nonce and extra nonce) in order to find a hash lower than the target (see also difficulty).
+
+The process needs to determine a single global history of all transactions (grouped in blocks).
+
+Mining consumes time and electricity and nowadays the difficulty is so big, that energy-wise it's not even profitable to mine using video graphics cards. Mining is paid for by transaction fees and by block rewards (newly generated coins, hence the term “mining”).

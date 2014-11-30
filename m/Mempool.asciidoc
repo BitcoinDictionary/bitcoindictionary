@@ -1,0 +1,5 @@
+== Mempool
+
+A technical term for a collection of unconfirmed transactions stored by a node until they either expire or get included in the main chain. When reorganisation happens, transactions from orphaned blocks either become invalid (if already included in the main chain) or moved to a pool of unconfirmed transactions.
+
+By default, BitcoinD nodes throw away unconfirmed transactions after 24 hours.
