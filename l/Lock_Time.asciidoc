@@ -1,0 +1,5 @@
+== Lock Time
+
+A 32-bit field in a transaction that means either a block height at which the transaction becomes valid, or a UNIX timestamp.
+
+Zero means transaction is valid in any block. A number less than 500000000 is interpreted as a block number (the limit will be hit after year 11000), otherwise a timestamp.

@@ -1,0 +1,3 @@
+== Genesis Block
+
+The very first block in the blockchain with hard-coded contents and an all-zero reference to a previous block. The Genesis block was released on 3rd of January 2009 with a newspaper quote in its coinbase: “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks” as a proof that there are no secretly pre-mined blocks to overtake the blockchain in the future. The message ironically refers to a reason for Bitcoin existence: a constant inflation of money supply by governments and banks.

@@ -1,0 +1,7 @@
+== Merkle Tree
+
+Merkle tree is an abstract data structure that organises a list of data items in a tree of their hashes (like in Git, Mercurial or ZFS).
+
+In Bitcoin the merkle tree is used only to organise transactions within a block (the block header contains only one hash of a tree) so that full nodes may prune fully spent transactions to save disk space.
+
+SPV clients store only block headers and validate transactions if they are provided with a list of all intermediate hashes.

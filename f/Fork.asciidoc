@@ -1,0 +1,7 @@
+== Fork
+
+Refers either to a fork of a source code (see altcoin) or, more often, to a split of the blockchain when two different parts of the network see different main chains.
+
+In a sense, a fork occurs every time two blocks of the same height are created at the same time. Both blocks always have the different hashes (and therefore different difficulty), so when a node sees both of them, it will always choose the most difficult one. However, before both blocks arrive to a majority of nodes, two parts of the network will see different blocks as tips of the main chain.
+
+The term fork (or hard fork) also refers to a change of the protocol that may lead to a split of the network (by design or because of a bug). On March 11 2013 a smaller half of the network running version 0.7 of BitcoinD could not include a large (>900 Kb) block at height 225430 created by a miner running newer version 0.8. The block could not be included because of the bug in v0.7 which was fixed in v0.8. Since the majority of computing power did not have a problem, it continued to build a chain on top of a problematic block. When the issue was noticed, majority of 0.8 miners agreed to abandon 24 blocks incompatible with 0.7 miners and mine on top of 0.7 chain. Except for one double spend experiment against OKPay, all transactions during the fork were properly included in both sides of the blockchain.

@@ -1,0 +1,5 @@
+== Main Chain
+
+A part of the blockchain which a node considers the most difficult. All nodes store all valid blocks, including orphans and recompute the total difficulty when receiving another block.
+
+If the newly arrived block or blocks do not extend the existing main chain, but create another one from some previous block, it is called reorganisation.

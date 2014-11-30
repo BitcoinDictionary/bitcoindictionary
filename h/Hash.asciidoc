@@ -1,0 +1,3 @@
+== Hash
+
+To compute a hash function of some data. If hash function is not mentioned explicitly, it is the one defined by the context. For instance, “to hash a transaction” means to compute Hash256 of binary representation of a transaction.

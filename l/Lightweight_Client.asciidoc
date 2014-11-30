@@ -1,0 +1,8 @@
+== Lightweight Client
+
+Compared to a full node, a lightweight node does not store the whole blockchain and thus cannot fully verify any transaction. There are two kinds of lightweight nodes: those fully trusting an external service to determine wallet balance and validity of transactions (e.g. blockchain.info) and the apps implementing Simplified Payment Verification (SPV). SPV clients do not need to trust any particular service, but are more vulnerable to a 51% attack than full nodes.
+
+
+See also
+
+Simplified Payment Verification

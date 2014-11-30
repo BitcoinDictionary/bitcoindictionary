@@ -1,0 +1,5 @@
+== Node
+
+Node, or client, is a computer on the network that speaks Bitcoin message protocol (exchanging transactions and blocks). There are full nodes that are capable of validating the entire blockchain and lightweight nodes, with reduced functionality.
+
+Wallet applications that speak to a server are not considered nodes.

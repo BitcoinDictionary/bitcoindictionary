@@ -1,0 +1,7 @@
+== Hash256
+
+When not speaking about arbitrary hash functions, hash refers to two rounds of SHA-256. This means that you should compute a SHA-256 hash of your data and then another SHA-256 hash of that hash.
+
+It is used in block header hashing, transaction hashing, making a merkle tree of transactions, or computing a checksum of an address.
+
+It's known as BTCHash256() in CoreBitcoin, Hash() in BitcoinQt. It is also available in scripts as OP_HASH256.

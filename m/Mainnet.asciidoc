@@ -1,0 +1,3 @@
+== Mainnet
+
+Main Bitcoin network and its blockchain. The term is mostly used in comparison to testnet.
