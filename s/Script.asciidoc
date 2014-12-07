@@ -1,0 +1,7 @@
+== Script
+
+A compact turing-incomplete programming language used in transaction inputs and outputs.
+
+Scripts are interpreted by a Forth-like stack machine: each operation manipulates data on the stack. Most scripts follow the standard pattern and verify the digital signature provided in the transaction input against a public key provided in the previous transaction's output. Both signatures and public keys are provided using scripts.
+
+Scripts may contain complex conditions, but can never change amounts being transferred. Amount is stored in a separate field in a transaction output.

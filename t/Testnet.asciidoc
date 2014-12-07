@@ -1,0 +1,5 @@
+== Testnet
+
+A set of parameters used for testing a Bitcoin network. Testnet is like mainnet, but has a different genesis block (it was reset several times, the latest testnet is Testnet3).
+
+Testnet uses a slightly different address format to avoid confusion with main Bitcoin addresses and all nodes are relaying and mining non-standard transactions.

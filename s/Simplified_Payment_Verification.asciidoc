@@ -1,0 +1,9 @@
+== Simplified Payment Verification
+
+It's usually abbreviated as SPV
+
+It's a scheme to validate transactions without storing the whole blockchain (only block headers) and without trusting any external service.
+
+Every transaction must be present with all its parent and sibling hashes in a merkle tree up to the root. SPV client trusts the most difficult chain of block headers and can validate if the transaction indeed belongs to a certain block header. Since SPV does not validate all transactions, a 51% attack may not only cause a double spend (like with full nodes), but also make a completely invalid payment with bitcoins created from nowhere. However, this kind of attack is very costly and probably more expensive than a product in question.
+
+The Bitcoinj library implements SPV functionality.

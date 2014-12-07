@@ -1,0 +1,9 @@
+== UTXO Set
+
+A collection of unspent transaction outputs. Typically used in discussions on optimising an ever-growing index of transaction outputs that are not yet spent.
+
+The index is important to efficiently validate newly created transactions. Even if the rate of the new transactions remains constant, the time required to locate and verify [Spent Output|unspent outputs]] grows.
+
+Possible technical solutions include more efficient indexing algorithms and a more performant hardware. BitcoinQt, for example, keeps only an index of outputs matching user's keys and scans the entire blockchain when validating other transactions. A developer of one web wallet service mentioned that they maintained the entire index of UTXO and its size was around 100 Gb when the blockchain itself was only 8 Gb.
+
+Some people seek social methods to solve the problem. For instance, by refusing to relay or mine transactions that are considered dust (containing outputs smaller than a transaction fee required to mine/relay them).

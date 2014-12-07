@@ -1,0 +1,7 @@
+== XBT
+
+Informal currency code for 1 bitcoin (defined as 100 000 000 satoshis). Some people proposed using it for 0.01 bitcoin to avoid confusion with BTC. Recently it was reported that it is used in Bloomberg terminal to display a bitcoin price ticker.
+
+=== See also
+
+BTC.

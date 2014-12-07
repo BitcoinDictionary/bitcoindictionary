@@ -1,0 +1,7 @@
+== Target
+
+A 256-bit number that puts an upper limit for a block header hash to be valid. The lower the target is, the higher the difficulty to find a valid hash.
+
+The maximum (easiest) target is 0x00000000FFFF0000000000000000000000000000000000000000000000000000.
+
+The difficulty and the target are adjusted every 2016 blocks (approx. 2 weeks) to keep interval between the blocks close to 10 minutes.

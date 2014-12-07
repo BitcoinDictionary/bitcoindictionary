@@ -1,0 +1,5 @@
+== Satoshi
+
+The first name of the Bitcoin's creator Satoshi Nakamoto and also the name of the smallest unit used in transactions.
+
+1 bitcoin (BTC) is equal to 100 million satoshis.

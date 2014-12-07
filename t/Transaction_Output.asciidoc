@@ -1,0 +1,11 @@
+== Transaction Output
+
+An output contains an amount to be sent and a script that allows further spending. The script typically contains a public key (or an address, a hash of a public key) and a signature verification opcode.
+
+Only an owner of a corresponding private key is able to create another transaction that sends that amount further to someone else.
+
+In every transaction, the sum of output amounts must be equal or less than a sum of all input amounts.
+
+=== See also
+
+Change

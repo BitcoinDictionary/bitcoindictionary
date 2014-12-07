@@ -1,0 +1,5 @@
+== Relaying Transactions
+
+Connected Bitcoin nodes relay new transactions between each other on best effort basis in order to send them to the mining nodes. Some transactions may not be relayed by all nodes. E.g. non-standard transactions, or transactions without a minimum fee.
+
+The Bitcoin message protocol is not the only way to send the transaction. One may also send it directly to a miner, or mine it themselves, or send it directly to the payee and make them to relay or mine it.

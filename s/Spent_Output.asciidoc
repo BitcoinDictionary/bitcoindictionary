@@ -1,0 +1,5 @@
+== Spent Output
+
+A transaction output can be spent only once: when another valid transaction makes a reference to this output from its own input.
+
+When another transaction attempts to spend the same output, it will be rejected by the nodes already seeing the first transaction. The blockchain as a proof-of-work scheme allows every node to agree on which transaction was indeed the first one. The whole transaction is considered spent when all its outputs are spent.

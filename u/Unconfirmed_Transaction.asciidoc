@@ -1,0 +1,12 @@
+== Unconfirmed Transaction
+
+A transaction that is not included in any block. It's also known as a “0-confirmation” transaction.
+
+Unconfirmed transactions are relayed by the nodes and stay in their mempools. An unconfirmed transaction stays in the pool until the node decides to:
+- throw it away,
+- finds it in the blockchain, or
+- includes it in the blockchain itself (if it's a miner).
+
+=== See also
+
+Confirmation Number.

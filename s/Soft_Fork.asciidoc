@@ -1,0 +1,8 @@
+== Soft Fork
+
+Sometimes the soft fork refers to an important change of software behaviour that is not a hard fork (e.g. changing mining fee policy).
+
+=== See also
+
+Hard Fork
+Fork

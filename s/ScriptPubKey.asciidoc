@@ -1,0 +1,3 @@
+== ScriptPubKey
+
+Original name in BitcoinD for a transaction output script. Typically, output scripts contain public keys (or their hashes; See address) that allow only owner of a corresponding private key to redeem the bitcoins in the output.

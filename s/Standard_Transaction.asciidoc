@@ -1,0 +1,11 @@
+== Standard Transaction
+
+Some transactions are considered standard, meaning they are relayed and mined by most nodes.
+
+More complex transactions could be buggy or cause DoS attacks on the network, so they are considered non-standard and not relayed or mined by most nodes. Both standard and non-standard transactions are valid and once included in the blockchain, will be recognised by all [Node|[nodes]].
+
+Standard transactions are:
+1. sending to a public key,
+2. sending to an address,
+3. sending to a P2SH address,
+4. sending to an m-of-n multi-signature transaction where N is 3 or less.

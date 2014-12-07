@@ -1,0 +1,7 @@
+== Reward
+
+Amount of newly generated bitcoins that a miner may claim in a new block. The first transaction in the block allows miner to claim currently allowed reward as well as all transaction fees from all transactions in the block. The reward is halved every 210 000 blocks, approximately every 4 years.
+
+As of April 26, 2014 the reward is 25 BTC (the first halving occurred in December 2012).
+
+For security reasons, rewards cannot be spent before 100 blocks are built on top of the current block.

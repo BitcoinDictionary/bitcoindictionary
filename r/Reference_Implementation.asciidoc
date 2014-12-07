@@ -1,0 +1,3 @@
+== Reference Implementation
+
+BitcoinQt (or BitcoinD) is the most used full node implementation, so it is considered a reference for other implementations. If an alternative implementation is not compatible with BitcoinQt it may be forked, that is it will not see the same main chain as the rest of the network running BitcoinQt
