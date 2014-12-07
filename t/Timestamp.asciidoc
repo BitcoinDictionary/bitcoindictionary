@@ -1,0 +1,3 @@
+== Timestamp
+
+UNIX timestamp is a standard representation of time as a number of seconds since January 1st 1970 GMT. It's usually stored in a 32-bit signed integer.

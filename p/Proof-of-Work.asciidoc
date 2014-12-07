@@ -1,0 +1,7 @@
+== Proof-of-Work
+
+A number that is provably hard to compute. That is, it takes measurable amount of time and/or computational power (energy) to produce. In Bitcoin it is a hash of a block header. A block is considered valid only if its hash is lower than the current target (roughly, starts with a certain amount of zero bits). Each block refers to a previous block thus accumulating previous proof-of-work and forming a blockchain.
+
+Proof-of-work is not the only requirement, but an important one to make sure that it is economically infeasible to produce an alternative history of transactions with the same accumulated work. Each client can independently consider the most difficult chain of valid blocks as the “true” history of transactions, without need to trust any source that provides the blocks.
+
+Note that owning a very large amount of computational power does not override other rules enforced by every client. Ill-formed blocks or blocks containing invalid transactions are rejected no matter how difficult they were to produce.

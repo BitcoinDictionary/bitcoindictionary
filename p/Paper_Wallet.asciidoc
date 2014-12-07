@@ -1,0 +1,7 @@
+== Paper Wallet
+
+A form of cold storage where a private key for a Bitcoin address is printed on a piece of paper (with or without encryption) and then all traces of the key are removed from the computer where it was generated. To redeem bitcoins, a key must be imported in the wallet application so it can sign a transaction.
+
+=== See also
+
+Casascius Coins

@@ -1,0 +1,10 @@
+== Transaction
+
+A chunk of binary data that describes how bitcoins are moved from one owner to another. Transactions are stored in the blockchain.
+
+Every transaction (except for coinbase transactions) has a reference to one or more previous transactions (inputs) and one or more rules on how to spend these bitcoins further (outputs).
+
+=== See also
+
+Transaction Input
+Transaction Output

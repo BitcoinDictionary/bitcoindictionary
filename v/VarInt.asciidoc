@@ -1,0 +1,5 @@
+== VarInt
+
+This term may cause confusion as it means different formats in different Bitcoin implementations.
+
+See CompactSize for details.

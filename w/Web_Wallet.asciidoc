@@ -1,0 +1,7 @@
+== Web Wallet
+
+A web service providing wallet functionality: ability to store, send and receive bitcoins.
+
+The user has to trust the counter-party to keep their bitcoins securely and ready to redeem at any time. It is very easy to build your own web wallet, so most of them were prone to hacks or outright fraud. The most secure and respected web wallet is Blockchain.info.
+
+Online exchanges also provide wallet functionality, so they can also be considered web wallets. It is not recommended to store large amounts of bitcoins in a web wallet.

@@ -1,0 +1,7 @@
+== Split
+
+A split of a blockchain.
+
+=== See also
+
+Fork

@@ -1,0 +1,5 @@
+== Satoshi Nakamoto
+
+A pseudonym of an author of initial Bitcoin implementation.
+
+There are multitude of speculations on who and how many people worked on Bitcoin, of which nationality or age, but no one has any evidence to say anything definitive on that matter.

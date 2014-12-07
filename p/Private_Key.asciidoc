@@ -1,0 +1,9 @@
+== Private Key
+
+A 256-bit number used in the ECDSA algorithm to create transaction signatures in order to prove ownership of certain amount of bitcoins.
+
+It can also be used in arbitrary Elliptic Curve Arithmetic operations. Private keys are stored within wallet applications and are usually encrypted with a pass phrase. Private keys may be completely random (see Key Pool) or generated from a single secret number (“seed”).
+
+=== See also
+
+Deterministic Wallet

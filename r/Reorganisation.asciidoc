@@ -1,0 +1,3 @@
+== Reorganisation
+
+An event in the node when one or more blocks in the main chain become orphaned. Usually, newly received blocks are extending the existing main chain. Sometimes (4-6 times a week) a couple of blocks of the same height are produced almost simultaneously and for a short period of time some nodes may see one block as a tip of the main chain which will be eventually replaced by a more difficult block(s). Each transaction in the orphaned blocks either becomes invalid (if already included in the main chain block) or becomes unconfirmed and moved to the mempool. In case of a major bug or a 51% attack, reorganisation may involve reorganising more than one block.

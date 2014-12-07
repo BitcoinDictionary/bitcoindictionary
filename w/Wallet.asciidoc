@@ -1,0 +1,5 @@
+== Wallet
+
+An application or a service that helps keeping private keys for signing transactions.
+
+A wallet does not keep bitcoins themselves (they are recorded in the blockchain). “Storing bitcoins” usually means storing the keys.

@@ -1,0 +1,7 @@
+== Opcode
+
+An 8-bit code of a script operation. Codes from 0x01 to 0x4B (decimal 75) are interpreted as a length of data to be pushed on the stack of the interpreter (data bytes follow the opcode). Other codes are either do something interesting, or disabled and cause transaction verification to fail, or do nothing (reserved for future use).
+
+=== See also
+
+Script

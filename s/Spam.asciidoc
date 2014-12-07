@@ -1,0 +1,5 @@
+== Spam
+
+Incorrect peer-to-peer messages (like sending invalid transactions) may be considered a Denial of Service attack (see DoS). Valid transactions sending very tiny amounts and/or having low mining fees are called dust by some people. The protocol itself does not define which [Transaction|[transactions]] are not worth relaying or mining, it's a decision of every individual node. Any valid transaction in the blockchain must be accepted by the node if it wishes to accept the remaining blocks, so transaction censorship only means increased confirmation delays.
+
+Individual payees may also blacklist certain addresses (refuse to accept payments from some addresses), but that's too easy to work around using mixing.

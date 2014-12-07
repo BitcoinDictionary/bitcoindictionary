@@ -1,0 +1,7 @@
+== Orphaned Block
+
+A valid block that is no longer a part of a main chain. Usually happens when two or more blocks of the same height are produced at the same time. When one of them becomes a part of the main chain, others are considered orphaned. Orphans also may happen when the blockchain is forked due to an attack (see 51% attack) or a bug. Then a chain of several blocks may become abandoned. Usually a transaction is included in all blocks of the same height, so its confirmation is not delayed and there is no double spend.
+
+=== See also
+
+Fork

@@ -1,0 +1,9 @@
+== Transaction Input
+
+A part of a transaction that contains a reference to a previous transaction's output and a script that can prove ownership of that output. The script usually contains a signature and thus called scriptSig.
+
+Inputs spend previous outputs completely. So if one needs to pay only a portion of some previous output, the transaction should include extra change output that sends the remaining portion back to its owner (on the same or different address). Coinbase transactions contain only one input with a zeroed reference to a previous transaction and an arbitrary data in place of script.
+
+=== See also
+
+Transaction Output

@@ -1,0 +1,5 @@
+== Public Key
+
+A 2D point on an elliptic curve secp256k1 that is produced by multiplying a predefined “generator” point by a private key. Usually it is represented by a pair of 256-bit numbers (“uncompressed public key”), but can also be compressed to just one 256-bit number (at the slight expense of CPU time to decode an uncompressed number).
+
+A special hash of a public key is called an address. Typical Bitcoin transactions contain public keys or addresses in the output scripts and signatures in the input scripts.

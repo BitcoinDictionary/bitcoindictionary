@@ -1,0 +1,3 @@
+== Sequence
+
+A 32-bit unsigned integer in a transaction input used to replace older version of a transaction by a newer one. It's only used when the lock time is not zero. A transaction is not considered valid until the sequence number is 0xFFFFFFFF. By default, the sequence is 0xFFFFFFFF.

@@ -1,0 +1,15 @@
+== Transaction Fee
+
+Also known as “miners' fee”, an amount that an author of a transaction pays to a miner who will include the transaction in a block.
+
+The fee is expressed as difference between the sum of all input amounts and a sum of all output amounts.
+
+Unlike traditional payment systems, miners do not explicitly require fees and most miners allow free transactions. All miners are competing between each other for the fees and all transactions are competing for a place in a block.
+
+There are soft rules encoded in most clients that define minimum fees per kilobyte to relay or mine a transaction (mostly to prevent DoS and spam).
+
+Typically, the fee affects the priority of a transaction. As of September 5, 2013 average fees are below 1 BTC per block.
+
+== See also
+
+Reward
