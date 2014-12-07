@@ -1,3 +1,3 @@
 == Block Header
 
-A data structure containing a previous block hash, a hash of a merkle tree of transactions, a timestamp, a difficulty and a nonce.
+A data structure containing a previous link:../b/Block.asciidoc[block] link:../h/Hash.asciidoc[hash], a link:../h/Hash.asciidoc[hash] of a link:../m/Merkle_Tree[merkle tree] of link:../t/Transaction.asciidoc[transactions], a link:../t/Timestamp[timestamp], a link:../d/Difficulty.asciidoc[difficulty] and a link:../n/Nonce.asciidoc[nonce].

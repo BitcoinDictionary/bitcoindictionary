@@ -1,7 +1,7 @@
 == Checkpoint
 
-A hash of a block before which the BitcoinQt client downloads blocks without verifying digital signatures for performance reasons.
+A link:../h/Hash.asciidoc[hash] of a link:../b/Block.asciidoc[block] before which the link:../b/BitcoinQt.asciidoc[BitcoinQt] link:../c/Client.asciidoc[client] downloads link:../b/Block.asciidoc[blocks] without verifying digital link:../s/Signature.asciidoc[signatures] for performance reasons.
 
-A checkpoint usually refers to a very deep block (at least several days old) when it's clear to everyone that that block is accepted by the overwhelming majority of users and reorganisation will not happen past that point.
+A checkpoint usually refers to a very deep link:../b/Block.asciidoc[block] (at least several days old) when it's clear to everyone that that block is accepted by the overwhelming majority of users and link:../r/Reorganisation.asciidoc[reorganisation] will not happen past that point.
 
-It also helps protecting most of the history from a 51% attack. Since checkpoints affect how the main chain is determined, they are part of the protocol and must be recognised by alternative clients (although, the risk of reorganisation past the checkpoint would be incredibly low).
+It also helps protecting most of the history from a link:../f/Fifty-One_Percent_Attack.asciidoc[51% attack]. Since checkpoints affect how the link:../m/Main_Chain.asciidoc[main chain] is determined, they are part of the protocol and must be recognised by alternative link:../c/Client.asciidoc[clients] (although, the risk of link:../r/Reorganisation.asciidoc[reorganisation] past the checkpoint would be incredibly low).

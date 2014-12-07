@@ -1,6 +1,6 @@
 == BTC
 
-The most popular informal currency code for 1 bitcoin (defined as 100 000 000 satoshis).
+The most popular informal currency code for 1 link:../b/Bitcoin.asciidoc[bitcoin] (defined as 100 000 000 link:../s/Satoshi.asciidoc[satoshis]).
 
 
 === See also

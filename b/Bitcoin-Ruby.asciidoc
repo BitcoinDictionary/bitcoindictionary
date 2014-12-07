@@ -1,5 +1,5 @@
 == Bitcoin-Ruby
 
-A full Bitcoin implementation in Ruby by Julian Langschaedel.
+A full link:../b/Bitcoin.asciidoc[Bitcoin] implementation in Ruby by Julian Langschaedel.
 
-It's used in production on Coinbase.
+It's used in production on link:../c/Coinbase.asciidoc[Coinbase].

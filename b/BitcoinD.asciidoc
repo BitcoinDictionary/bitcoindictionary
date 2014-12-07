@@ -1,7 +1,7 @@
 == BitcoinD
 
-This was the original implementation of Bitcoin with a command line interface. Currently a part of BitcoinQt project. “D” stands for “daemon” per UNIX tradition to name processes running in background.
+This was the original implementation of link:../b/Bitcoin.asciidoc[Bitcoin] with a command line interface. Currently a part of link:../b/BitcoinQt.asciidoc[BitcoinQt] project. “D” stands for “daemon” per UNIX tradition to name processes running in background.
 
 === See also
 
-BitcoinQt
+link:../b/BitcoinQt.asciidoc[BitcoinQt]
