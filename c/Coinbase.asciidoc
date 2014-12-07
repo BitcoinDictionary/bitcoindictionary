@@ -1,9 +1,9 @@
 == Coinbase
 
-An input script of a transaction that generates new bitcoins. Or a name of that transaction itself (“coinbase transaction”).
+An link:../i/Input[input] script of a link:../t/Transaction.asciidoc[transaction] that generates new link:../b/Bitcoin.asciidoc[bitcoins]. Or a name of that transaction itself (“coinbase transaction”).
 
-Coinbase transaction does not spend any existing transactions, but contains exactly one input which may contain any data in its script.
+A Coinbase link:../t/Transaction.asciidoc[transaction] does not link:../s/Spent_Output.asciidoc[spend] any existing transactions, but contains exactly one link:../i/Input.asciidoc[input] which may contain any data in its link:../s/Script.asciidoc[script].
 
-The genesis block transaction contains a reference to a Times article from January 3rd 2009 to prove that more blocks were not created before that date. Some mining pools put their names in the coinbase transactions (so everyone can estimate how much hash rate each pool produces).
+The link:../g/Genesis_Block.asciidoc[genesis block] link:../Transaction.asciidoc[transaction] contains a reference to a Times article from January 3rd 2009 to prove that more link:../b/Block.asciidoc[blocks] were not created before that date. Some link:../m/Mining_Pool.asciidoc[mining pools] put their names in the coinbase transactions (so everyone can estimate how much link:../h/Hash_Rate.asciidoc[hash rate] each pool produces).
 
-Coinbase is also used to vote on a protocol change (e.g. P2SH). Miners vote by putting some agreed-upon marker in the coinbase to see how many support the change. If a majority of miners support it and expect non-mining users to accept it, then they simply start enforcing new rule. Minority then should either continue with a forked blockchain (thus producing an altcoin) or accept new rule.
+Coinbase is also used to vote on a protocol change (e.g. link:../p/P2Sh.asciidoc[P2SH]). link:../m/Miner[Miners] vote by putting some agreed-upon marker in the coinbase to see how many support the change. If a majority of link:../m/Miner[miners] support it and expect non-mining users to accept it, then they simply start enforcing new rule. Minority then should either continue with a link:../f/Fork.asciidoc[forked] link:../b/Blockchain[blockchain] (thus producing an link:../a/Altcoin.asciidoc[altcoin]) or accept new rule.

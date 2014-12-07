@@ -1,11 +1,11 @@
 == Block Height
 
-A sequence number of a block in the Blockchain.
+A sequence number of a link:../b/Block.asciidoc[block] in the link:../b/Blockchain.asciidoc[Blockchain].
 
-Height 0 refers to the genesis block. Several blocks may share the same height, but only one of them belongs to the main chain.
+Height 0 refers to the link:../g/Genesis_Block.asciidoc[genesis block]. Several link:../b/Block.asciidoc[blocks] may share the same link:../h/Height.asciidoc[height], but only one of them belongs to the link:../m/Main_Chain.asciidoc[main chain].
 
-Block height is used in lock time.
+Block height is used in link:../l/Lock_Time.asciidoc[lock time].
 
 === See Also
 
-Orphan
+link:../o/Orphan.asciidoc[Orphan]

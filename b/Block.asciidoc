@@ -1,5 +1,5 @@
 == Block
 
-A data structure that consists of a block header and a merkle tree of transactions. Each block (except for the genesis block) references one previous block thus forming a tree called the Blockchain.
+A data structure that consists of a link:../b/Block_Header[block header] and a link:../m/Merkle_Tree[merkle tree] of link:../t/Transaction[transactions]. Each block (except for the link:../g/Genesis_Block[genesis block]) references one previous block thus forming a tree called the link:../b/Blockchain.asciidoc[Blockchain].
 
-Block can be thought of as a group of transactions with a timestamp and a proof-of-work attached.
+Block can be thought of as a group of link:../t/Trasaction.asciidoc[transactions] with a link:../t/Timestamp.asciidoc[timestamp] and a link:../p/Proof-of-Work.asciidoc[proof-of-work] attached.

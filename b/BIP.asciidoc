@@ -1,3 +1,3 @@
 == BIP
 
-Bitcoin Improvement Proposals. These are RFC-like documents modelled after PEPs (Python Enhancement Proposals) discussing different aspects of the protocol and software. Most interesting BIPs describe hard fork changes in the core protocol that require supermajority of Bitcoin users (or, in some cases, only miners) to agree on the change and accept it in an organised manner.
+Bitcoin Improvement Proposals. These are RFC-like documents modelled after PEPs (Python Enhancement Proposals) discussing different aspects of the protocol and software. Most interesting BIPs describe link:../h/Hard_Fork.asciidoc[hard fork] changes in the core protocol that require supermajority of Bitcoin users (or, in some cases, only miners) to agree on the change and accept it in an organised manner.

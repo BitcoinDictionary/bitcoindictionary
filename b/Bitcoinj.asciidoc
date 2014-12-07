@@ -1,3 +1,3 @@
 == Bitcoinj
 
-A Java implementation of a full Bitcoin node by Mike Hearn. Also includes SPV implementation among other features.
+A Java implementation of a link:../f/Full_Node.asciidoc[full node] by Mike Hearn. It also includes link:../s/SPV.asciidoc[SPV] implementation among other features.

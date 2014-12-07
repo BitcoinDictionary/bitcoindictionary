@@ -1,9 +1,15 @@
 == ASIC
+
 Stands for 'Application Specific iIntegrated Circuit'.
 
 This is a chip designed to perform a narrow set of tasks (compared to CPU or GPU that perform a wide range of functions).
 
-ASIC typically refers to specialised mining chips or the whole machines built on these chips. Some ASIC manufacturers are: Avalon, ASICMiner, Butterfly Labs (BFL) and Cointerra.
+ASIC typically refers to specialised mining chips or the whole machines built on these chips. Some ASIC manufacturers are: 
+- Avalon
+- link:../a/ASICMiner.asciidoc[ASICMiner]
+- Butterfly Labs (BFL)
+- Cointerra.
 
 === See Also
-ASICMiner
+
+ink:../a/ASICMiner.asciidoc[ASICMiner]

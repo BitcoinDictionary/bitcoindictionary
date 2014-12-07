@@ -1,6 +1,7 @@
 == Address
-A Bitcoin address is a Base58Check representation of a Hash160 of a public key with a version byte 0x00 which maps to a prefix “1”. Typically represented as text (e.g. 1CBtcGivXmHQ8ZqdPgeMfcpQNJrqTrSAcG) or as a QR code.
 
-A more recent variant of an address is a P2SH address: a hash of a spending script with a version byte 0x05 which maps to a prefix “3” (e.g. 3NukJ6fYZJ5Kk8bPjycAnruZkE5Q7UW7i8).
+A Bitcoin address is a link:../b/Base58Check.asciidoc[Base58Check] representation of a link:../h/Hash160.asciidoc[Hash160] of a link:../p/Public_Key.asciidoc[public key] with a version byte 0x00 which maps to a prefix “1”. Typically represented as text (e.g. 1CBtcGivXmHQ8ZqdPgeMfcpQNJrqTrSAcG) or as a QR code.
 
-Another variant of an address is not a hash, but a raw private key representation (e.g. 5KQntKuhYWSRXNqp2yhdXzjekYAR7US3MT1715Mbv5CyUKV6hVe). It is rarely used, only for importing/exporting private keys or printing them on paper wallets.
+A more recent variant of an address is a link:../p/P2SH.asciidoc[P2SH] address: a hash of a spending script with a version byte 0x05 which maps to a prefix “3” (e.g. 3NukJ6fYZJ5Kk8bPjycAnruZkE5Q7UW7i8).
+
+Another variant of an address is not a link:../h/Hash.asciidoc[hash], but a raw link../p/Private_Key.asciidoc[private key] representation (e.g. 5KQntKuhYWSRXNqp2yhdXzjekYAR7US3MT1715Mbv5CyUKV6hVe). It is rarely used, only for importing/exporting link:../p/Private_Key.asciidoc[private keys] or printing them on link:../p/Paper_Wallet.asciidoc[paper wallets].

@@ -1,3 +1,3 @@
 == Client
 
-See Node.
+See link:../n/Node.asciidoc[Node].

@@ -1,9 +1,9 @@
 == Change
 
-Informal name for a portion of a transaction output that is returned to a sender as a “change” after spending that output. Since transaction outputs cannot be partially spent, one can spend 1 BTC out of 3 BTC output only be creating two new outputs: a “payment” output with 1 BTC sent to a payee address, and a “change” output with remaining 2 BTC (minus transaction fees) sent to the payer's addresses.
+Informal name for a portion of a link:../t/Transaction_Output.asciidoc[transaction output] that is returned to a sender as a “change” after spending that link:../o/Output.asciidoc[output]. Since link:../t/Transaction_Output.asciidoc[transaction outputs] cannot be partially link:../s/Spent_Output.asciidoc[spent], one can spend 1 link:../b/BTC.asciidoc[BTC] out of 3 link:../b/BTC.asciidoc[BTC]  link:../o/Output.asciidoc[outputs] only be creating two new link:../o/Output.asciidoc[outputs]: a “payment” output with 1 BTC sent to a payee address, and a “change” output with remaining 2 BTC (minus link:../t/Transaction_Fee.asciidoc[transaction fees]) sent to the payer's addresses.
 
-BitcoinQt always uses new address from a key pool for a better privacy.
+link:../b/BitcoinQt.asciidoc[BitcoinQt] always uses new link:../a/Address.asciidoc[address] from a key pool for a better privacy.
 
-Blockchain.info sends to a default address in the wallet.
+link:../b/Blockchain.info.asciidoc[Blockchain.info] sends to a default link:../a/Address.asciidoc[address] in the link:../w/Wallet.asciidoc[wallet].
 
-A common mistake when working with a paper wallet or a brain wallet is to make a change transaction to a different address and then accidentally delete it. E.g. when importing a private key in a temporary BitcoinQt wallet, making a transaction and then deleting the temporary wallet.
+A common mistake when working with a link:../p/Paper_Wallet.asciidoc[paper wallet] or a link:../b/Brain_Wallet.asciidoc[brain wallet] is to make a link:../c/Change.asciidoc[change] link:../t/Transction.asciidoc[transaction] to a different address and then accidentally delete it. E.g. when importing a link:../p/Private_Key.asciidoc[private key] in a temporary link:../b/BitcoinQt.asciidoc[BitcoinQt] link:../w/Wallet[wallet], making a link:../t/Transction.asciidoc[transaction] and then deleting the temporary link:../w/Wallet[wallet].

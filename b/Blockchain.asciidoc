@@ -1,5 +1,5 @@
 == Blockchain
 
-A public ledger of all confirmed transactions in a form of a tree of all valid blocks (including orphans). Most of the time, “blockchain” means the main chain, a single most difficult chain of blocks.
+A public ledger of all link:../c/Confirmed_Transaction.asciidoc[confirmed transactions] in a form of a tree of all valid link:../b/Block.asciidoc[blocks] (including link:../o/Orphan.asciidoc[orphans]). Most of the time, “blockchain” means the link:../m/Main_Chain.asciidoc[main chain], a single most link:../d/Difficulty.asciidoc[difficult] chain of link:../b/Block.asciidoc[blocks].
 
-The Blockchain is updated by mining blocks with new transactions. Unconfirmed transactions are not part of the blockchain. If some clients disagree on which chain is main or which blocks are valid, a fork happens.
+The Blockchain is updated by link:../m/Mining.asciidoc[mining] link:../b/Block.asciidoc[blocks] with new link:../t/Transaction.asciidoc[transactions]. link:../u/Unconfirmed_Transaction.asciidoc[Unconfirmed transactions] are not part of the blockchain. If some link:../c/Client.asciidoc[clients] disagree on which chain is main or which link:../b/Block.asciidoc[blocks] are valid, a link:../f/Fork.asciidoc[fork] happens.

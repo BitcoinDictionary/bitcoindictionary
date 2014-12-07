@@ -4,4 +4,4 @@ Original name of a variable-length integer format used in transaction and block 
 
 It uses 1, 3, 5 or 9 bytes to represent any 64-bit unsigned integer. Values lower than 253 are represented with 1 byte. Bytes 253, 254 and 255 indicate 16-, 32- or 64-bit integer that follows. Smaller numbers can be presented differently.
 
-In Bitcoin-Ruby it is called “var_int”, in Bitcoinj it is VarInt. BitcoinQt also has even more compact representation called VarInt which is not compatible with CompactSize and used in block storage.
+In link:../b/Bitcoin-Ruby.asciidoc[Bitcoin-Ruby] it is called “var_int”, in link:../b/Bitcoinj.asciidoc[Bitcoinj] it is VarInt. BitcoinQt also has even more compact representation called VarInt which is not compatible with CompactSize and used in link:../b/Block.asciidoc[block] storage.

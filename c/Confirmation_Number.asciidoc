@@ -2,4 +2,8 @@
 
 Confirmation number is a measure of probability that transaction could be rejected from the main chain.
 
-“Zero confirmations” means that transaction is unconfirmed (not in any block yet). One confirmation means that the transaction is included in the latest block in the main chain. Two confirmations means the transaction is included in the block right before the latest one. And so on.
+“Zero confirmations” means that link:../t/Transaction.asciidoc[transaction] is unconfirmed (not in any block yet). One confirmation means that the link:../t/Transaction.asciidoc[transaction] is included in the latest block in the link:../m/Main_Chain.asciidoc[main chain]. Two confirmations means the link:../t/Transaction.asciidoc[transaction] is included in the link:../b/Block.asciidoc[block] right before the latest one. And so on.
+
+=== See also
+
+link:../c/Confirmed_Transaction.asciidoc[Confirmed Transaction]
