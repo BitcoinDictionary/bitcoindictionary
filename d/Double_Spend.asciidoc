@@ -1,11 +1,11 @@
 == Double Spend
 
-A fraudulent attempt to spend the same transaction output twice. There are two major ways to perform a double spend:
+A fraudulent attempt to spend the same link:../t/Transaction_Output.asciidoc[transaction output] twice. There are two major ways to perform a double spend:
+- reverting an link:../u/Unconfirmed_Transaction.asciidoc[unconfirmed transaction] by making another one which has a higher chance of being included in a link:../b/Block.asciidoc[block] (only works with merchants accepting link:../z/Zero-Confirmation.asciidoc[zero-confirmation] link:../t/Transaction.asciidoc[transactions]) or 
+- by link:../m/Mining.asciidoc[mining] a parallel link:../b/Blockchain.asciidoc[blockchain] with a second link:../t/Transaction.asciidoc[transaction] to overtake the chain where the first link:../t/Transaction.asciidoc[transaction] was included.
 
-- reverting an unconfirmed transaction by making another one which has a higher chance of being included in a block (only works with merchants accepting zero-confirmation transactions) or - by mining a parallel blockchain with a second transaction to overtake the chain where the first transaction was included.
-
-Bitcoin proof-of-work scheme makes a probabilistic guarantee of difficulty to double spend transactions included in the blockchain. The deeper transaction is recorded in the blockchain, the more expensive it is to “reverse” it.
+link:../b/Bitcoin.asciidoc[Bitcoin] link:../p/Proof-of-Work.asciidoc[proof-of-work] scheme makes a probabilistic guarantee of link:../d/Difficulty.asciidoc[difficulty] to double spend link:../t/Transaction.asciidoc[transactions] included in the blockchain. The deeper link:../t/Transaction.asciidoc[transaction] is recorded in the link:../b/Blockchain.asciidoc[blockchain], the more expensive it is to “reverse” it.
 
 === See also 
 
-51% attack.
+link:../f/Fifty-One_Percent_Attack[51% attack].

@@ -1,3 +1,3 @@
 == Depth
 
-Depth refers to a place in the blockchain. A transaction with 6 confirmations can also be called “6 blocks deep”.
+Depth refers to a place in the link:../b/Blockchain.asciidoc[blockchain]. A link:../t/Transaction.asciidoc[transaction] with 6 confirmations can also be called “6 link:../b/Block.asciidoc[blocks] deep”.

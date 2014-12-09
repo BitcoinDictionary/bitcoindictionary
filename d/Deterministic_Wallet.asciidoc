@@ -1,6 +1,10 @@
 == Deterministic Wallet
-A deterministic wallet is a system of deriving keys from a single starting point known as a seed. The seed allows a user to easily back up and restore a wallet without needing any other information and can in some cases allow the creation of public addresses without the knowledge of the private key.
+A deterministic wallet is a system of deriving keys from a single starting point known as a link:../s/Seed.asciidoc[seed]. The link:../s/Seed.asciidoc[seed] allows a user to easily back up and restore a link:../w/Wallet.asciidoc[wallet] without needing any other information and can in some cases allow the creation of link:../p/Public_Address.asciidoc[public addresses] without the knowledge of the link:../p/Private_Key.asciidoc[private key].
+
+=== References
+
+link:https://en.bitcoin.it/wiki/Deterministic_wallet[https://en.bitcoin.it/wiki/Deterministic_wallet]
 
 === See also
 
-Wallet.
+link:../w/Wallet.asciidoc[Wallet].

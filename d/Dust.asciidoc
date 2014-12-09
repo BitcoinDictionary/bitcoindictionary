@@ -1,5 +1,5 @@
 == Dust
 
-A transaction output that is smaller than a typically fee required to spend it. This is not a strict part of the protocol, as any amount more than zero is valid.
+A link:../t/Transaction_Output.asciidoc[transaction output] that is smaller than a typical fee required to link:../s/Spent_Output.asciidoc[spend] it. This is not a strict part of the protocol, as any amount more than zero is valid.
 
-BitcoinQt refuses to mine or relay “dust” transactions to avoid uselessly increasing the size of unspent transaction outputs (UTXO) index.
+link:../b/BitcoinQt.asciidoc[BitcoinQt] refuses to link:../m/Mining.asciidoc[mine] or link:../r/Relaying_Transactions.asciidoc[relay] “dust” link:../t/Transaction.asciidoc[transactions] to avoid uselessly increasing the size of link:../u/UTXO_Set.asciidoc[unspent transaction outputs (UTXO)] index.

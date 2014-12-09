@@ -1,7 +1,7 @@
 == ECDSA
 
-Stands for Elliptic Curve Digital Signature Algorithm. It's used to verify transaction ownership when making a transfer of bitcoins.
+Stands for Elliptic Curve Digital Signature Algorithm. It's used to verify link:../t/Transaction.asciidoc[transaction] ownership when making a transfer of link:../b/Bitcoin.asciidoc[bitcoins].
 
 === See Also
 
-Signature
+link:../s/Signature.asciidoc[Signature]

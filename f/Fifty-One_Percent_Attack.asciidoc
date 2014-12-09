@@ -1,13 +1,13 @@
 == 51% attack
 
-It's also known as >50% attack or a double spend attack.
+It's also known as >50% attack or a link:../d/Double_Spend.asciidoc[double spend] attack.
 
-An attacker can make a payment, wait till the merchant accepts some number of confirmations and provides the service, then starts [mining] a parallel chain of blocks starting with a block before the transaction. This parallel blockchain then includes another transaction that spends the same outputs on some other address. When the parallel chain becomes more difficult, it is considered a main chain by all nodes and the original transaction becomes invalid.
+An attacker can make a payment, wait till the merchant accepts some number of link:../c/Confirmed_Transaction.asciidoc[confirmations] and provides the service, then starts link:../m/Mining.asciidoc[mining] a parallel chain of link:../b/Block.asciidoc[blocks] starting with a link:../b/Block.asciidoc[block] before the link:../t/Transaction.asciidoc[transaction]. This parallel link:../b/Blockchain.asciidoc[blockchain] then includes another link:../t/Transaction.asciidoc[transaction] that spends the same link:../o/Output.asciidoc[outputs] on some other link:../a/Address.asciidoc[address]. When the parallel chain becomes more link:../d/Difficulty.asciidoc[difficult], it is considered a link:../m/Main_Chain.asciidoc[main chain] by all link:../n/Node.asciidoc[nodes] and the original link:../t/Transaction.asciidoc[transaction] becomes invalid.
 
-Having more than a half of the total hash rate guarantees the possibility to overtake a chain of any length, hence the name of an attack (strictly speaking, it is “more than 50%”, not 51%). Also, even 40% of the hash rate allows making a double spend, but the chances are less than 100% and are diminishing exponentially with the number of confirmations that the merchant requires.
+Having more than a half of the total link:../h/Hash_Rate.asciidoc[hash rate] guarantees the possibility to overtake a chain of any length, hence the name of an attack (strictly speaking, it is “more than 50%”, not 51%). Also, even 40% of the hash rate allows making a link:../d/Double_Spend.asciidoc[double spend], but the chances are less than 100% and are diminishing exponentially with the number of link:../c/Confirmed_Transaction.asciidoc[confirmations] that the merchant requires.
 
-This attack is considered theoretical as owning more than 50% of hash rate might be much more expensive than any gain from a double spend.
+This attack is considered theoretical as owning more than 50% of link:../h/Hash_Rate.asciidoc[hash rate] might be much more expensive than any gain from a link:../d/Double_Spend.asciidoc[double spend].
 
-Another variant of this attack is to disrupt the network by mining empty blocks, thus censoring all transactions.
+Another variant of this attack is to disrupt the network by mining empty blocks, thus censoring all link:../t/Transaction.asciidoc[transactions].
 
-This attack can be mitigated by blacklisting blocks that most of “honest” miners consider abnormal. Under normal conditions, miners and mining pools do not censor blocks and transactions as it may diminish trust in Bitcoin and thus their own investments. A 51% attack is also mitigated by using checkpoints that prevent reorganisation past a certain block.
+This attack can be mitigated by blacklisting blocks that most of “honest” link:../m/Miner.asciidoc[miners] consider abnormal. Under normal conditions, miners and link:../m/Mining_Pool.asciidoc[mining pools] do not censor link:../b/Block.asciidoc[blocks] and link:../t/Transaction.asciidoc[transactions] as it may diminish trust in link:../b/Block.asciidoc[Bitcoin] and thus their own investments. A 51% attack is also mitigated by using link:../c/Checkpoint.asciidoc[checkpoints] that prevent link:../r/Reorganisation.asciidoc[reorganisation] past a certain link:../b/Block.asciidoc[block].
