@@ -1,0 +1,6 @@
+== Bitcoin ATM
+
+A bitcoin ATM is a physical machine that allows a customer to buy bitcoin with cash. 
+There are many manufacturers, some of which enable users to sell bitcoin for cash. 
+They are also sometimes called 'BTMs' or 'Bitcoin AVMS'. 
+CoinDesk maintains a link:http://www.coindesk.com/bitcoin-atm-map/[worldwide map] of operational bitcoin atm machines and a list of manufacturers.

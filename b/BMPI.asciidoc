@@ -1,0 +1,4 @@
+== Bitcoin Market Potential Index (BMPI)
+
+The Bitcoin Market Potential Index (BMPI) uses a data set to rank the potential utility of bitcoin across 177 countries. 
+It attempts to show which markets have the greatest potential for bitcoin adoption.
