@@ -1,0 +1,10 @@
+== 51% attack
+
+A condition in which more than half the computing power on a cryptocurrency network is controlled by a single miner or group of miners.
+That amount of power theoretically makes them the authority on the network.
+This means that every client on the network believes the attacker’s hashed transaction block.
+This gives them control over the network, including the power to:
+- Issue a transaction that conflicts with someone else's.
+- Stop someone else's transaction from being confirmed.
+- Spend the same coins multiple times.
+- Prevent other miners from mining valid blocks.

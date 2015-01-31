@@ -1,0 +1,4 @@
+== Bitcoin Price Index (BPI)
+
+The lin:http://www.coindesk.com/price/[Bitcoin Price Index] represents an average of bitcoin prices across leading global exchanges that meet criteria specified by the BPI. 
+There is also an link:http://www.coindesk.com/api/[API] for developers to use.

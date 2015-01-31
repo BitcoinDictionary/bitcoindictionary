@@ -1,0 +1,4 @@
+== Buttonwood
+
+A project founded by bitcoin enthusiast Josh Rossi, to form a public outcry bitcoin exchange in New York's Union Square. 
+Named after the Buttonwood agreement, which formed the basis for the New York Stock Exchange in 1792

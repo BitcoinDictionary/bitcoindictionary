@@ -1,0 +1,5 @@
+=== AML
+
+Anti-Money Laundering techniques are used to stop people converting illegally obtained funds, to appear as though they have been earned legally. 
+AML mechanisms can be legal or technical in nature. 
+Regulators frequently apply AML techniques to bitcoin exchanges.
