@@ -1,5 +1,5 @@
 == Nonce
 
-Stands for “number used once”. A 32-bit number in a block header which is iterated during a search for proof-of-work. Each time the nonce is changed, the hash of the block header is recalculated. If nonce overflows before valid proof-of-work is found, an extra nonce is incremented and placed in the coinbase script.
+Stands for “number used once”. A 32-bit number in a link:../b/Block_Header.asciidoc[block header] which is iterated during a search for proof-of-work. Each time the nonce is changed, the hash of the block header is recalculated. If nonce overflows before valid proof-of-work is found, an extra nonce is incremented and placed in the coinbase script.
 
 Alternatively, one may change a merkle tree of transactions or a timestamp.
