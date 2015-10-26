@@ -1,0 +1,3 @@
+== Appcoin
+
+A digital link:../t/Token.asciidoc[token] built to be the exclusive or preferred means of accessing a specific applications features.

@@ -1,4 +1,4 @@
-== Denial of Service
+== Denial Of Service
 
 This is a form of attack on the network.
 

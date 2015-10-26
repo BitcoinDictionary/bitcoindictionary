@@ -1,4 +1,4 @@
-== Extra nonce
+== Extra Nonce
 
 A number placed in a link:../c/Coinbase.asciidoc[coinbase script] and incremented by a link:../m/Miner.asciidoc[miner] each time the nonce 32-bit integer overflows. This is not the required way to continue link:../m/Mining.asciidoc[mining] when nonce overflows, one can also change the link:../m/Merkle_Tree.asciidoc[merkle tree] of link:../t/Transaction.asciidoc[transactions] or change a link:../p/Publick_Key.asciidoc[public key] used for collecting a link:../b/Block.asciidoc[block] link:../r/Reward.asciidoc[reward].
 

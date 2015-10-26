@@ -1,0 +1,3 @@
+== Pay-To-Script Hash
+
+A type of the script and address that allows sending bitcoins to arbitrary complex scripts using a compact hash of that script. This allows payer to pay much smaller transaction fees and not wait very long for a non-standard transaction to get included in the blockchain. Then the actual script matching the hash must be provided by the payee when redeeming the funds. P2SH addresses are encoded in Base58Check just like regular public keys and start with number “3”.

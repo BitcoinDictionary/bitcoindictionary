@@ -1,3 +1,0 @@
-== coinbase.com
-
-A US-based Bitcoin/USD exchange and web wallet service
