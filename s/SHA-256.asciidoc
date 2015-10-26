@@ -1,0 +1,3 @@
+== SHA-256
+
+The cryptographic function used as the basis for bitcoin’s proof of work system.
