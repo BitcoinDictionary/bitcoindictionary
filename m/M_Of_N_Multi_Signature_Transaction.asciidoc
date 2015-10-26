@@ -1,0 +1,5 @@
+== M-Of-N Multi-Signature Transaction
+
+A transaction that can be spent using M signatures when N public keys are required (M is less or equal to N).
+
+Multi-signature transactions that only contain one OP_CHECKMULTISIG opcode and N is 3, 2 or 1 are considered standard.
