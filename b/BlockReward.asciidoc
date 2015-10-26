@@ -1,0 +1,3 @@
+== Block Reward
+
+The reward given to a miner which has successfully hashed a transaction block. This can be a mixture of coins and transaction fees, depending on the policy used by the cryptocurrency in question, and whether all of the coins have already been successfully mined. Bitcoin currently awards 25 bitcoins for each block. The block reward halves when a certain number of blocks have been mined. In bitcoin’s case, the threshold is every 210,000 blocks.
