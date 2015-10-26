@@ -1,0 +1,3 @@
+== Cryptocurrency
+
+A form of currency based on mathematics alone. Instead of fiat currency, which is printed, cryptocurrency is produced by solving mathematical problems based on cryptography.
