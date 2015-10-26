@@ -1,0 +1,3 @@
+== Coin Age
+
+The age of a coin, defined as the currency amount multiplied by the holding period.
