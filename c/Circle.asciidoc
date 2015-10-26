@@ -1,0 +1,3 @@
+== Circle
+
+https://www.circle.com/en[Circle] is an exchange and wallet service, offering users worldwide the chance to store, send, receive and exchange bitcoins.
