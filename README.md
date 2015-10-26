@@ -8,8 +8,11 @@ As of now, there is no single authoritative source of standardised definition of
 
 To contribute to this repository, please:
 + Make a fork of this repo.
-+ Make the suitable changes in your fork.
++ Make the suitable changes in your fork. 
++ Make sure you keep in mind the format of the files. 
 + Submit a pull request. 
+
+Please make sure the format of the files is maintained. Each word in the file name should be seperated by an underscore(_). For eg: This_Is_Example.asciidoc. 
 
 Alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right.
 Major contributions will receive an acknowledgment in the preface of the book, the website and on the mobile apps.
