@@ -1,0 +1,3 @@
+== Zero-Confirmation
+
+See Unconfirmed Transaction and Confirmation Number.
