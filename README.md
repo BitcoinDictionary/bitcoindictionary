@@ -12,4 +12,4 @@ Contributors will also received some bitcoins for every pull request that gets a
 
 ## Sponsors
 
-Sponsors of this project can donate via Bitcoin here: https://tip4commit.com/github/BitcoinDictionary/bitcoindictionary
+Sponsors of this project can donate via Bitcoin https://tip4commit.com/github/BitcoinDictionary/bitcoindictionary[here].
