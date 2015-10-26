@@ -12,7 +12,6 @@ To contribute to this repository, please:
 + Make sure you keep in mind the format of the files. 
 + Submit a pull request. 
 
-### Format of the File
 Please make sure the format of the files is maintained. Each word in the file name should be seperated by an underscore(_). For eg: This_Is_Example.asciidoc. 
 
 Alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right.
