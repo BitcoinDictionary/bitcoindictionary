@@ -1,15 +1,21 @@
 # Bitcoin Dictionary
 
-The Bitcoin Dictionary is a collection of definitions of Bitcoin-related terms for the community of Bitcoin users, developers, and businesses as well as anyone interested in Bitcoin.
+The Bitcoin Dictionary is a collection of definitions of Bitcoin-related terms for the community of Bitcoin users, developers, businesses as well as anyone interested in Bitcoin.
 
-The problem this project aims to solve is that there is no single authoritative source standardised definition of the terms that the people in the Bitcoin space are continually coming up with. We attempt solve this problem by putting the definitions of all the Bitcoin-related terms in one place
+As of now, there is no single authoritative source of standardised definition of the terms that the people in the Bitcoin community are continually coming up with. This project aims to solve this problem by putting the definition of all the Bitcoin related terms in one place.
 
 ## Contributing
 
-To contribute to this repository, please fork and make changes to your forked copy, then submit a pull request. Or alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right. Major contributions will receive an acknowledgment in the preface of the book, on the website and on the mobile apps.
+To contribute to this repository, please:
++ Make a fork of this repo.
++ Make the suitable changes in your fork.
++ Submit a pull request. 
 
-Contributors will also received some bitcoins for every pull request that gets accepted
+Alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right.
+Major contributions will receive an acknowledgment in the preface of the book, the website and on the mobile apps.
+
+Contributors will also be rewarded with some bitcoins for every pull request that gets accepted.
 
 ## Sponsors
 
-Sponsors of this project can donate via Bitcoin here: https://tip4commit.com/github/BitcoinDictionary/bitcoindictionary
+Sponsors of this project can donate via Bitcoin [here](https://tip4commit.com/github/BitcoinDictionary/bitcoindictionary).
