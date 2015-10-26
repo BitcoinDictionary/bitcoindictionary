@@ -1,0 +1,3 @@
+== Bitcoin Whitepaper
+
+The bitcoin whitepaper was written by http://www.coindesk.com/information/who-is-satoshi-nakamoto/['Satoshi Nakamoto’] and posted to a Cryptography Mailing list in 2008. The paper describes the bitcoin protocol in detail, and is well worth a https://bitcoin.org/bitcoin.pdf[read]. Satoshi Nakamoto followed this by releasing the bitcoin code in 2009.

@@ -1,0 +1,3 @@
+== Freicoin
+
+A cryptocurrency based on the inflation-free principles outlined by the economist Silvio Gessell.

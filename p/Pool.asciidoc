@@ -1,0 +1,3 @@
+== Pool
+
+A collection of mining clients which collectively mine a block, and then split the reward between them. Mining pools are a useful way to increase your probability of successfully mining a block as the difficulty rises.

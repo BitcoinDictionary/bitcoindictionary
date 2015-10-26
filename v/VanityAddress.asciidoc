@@ -1,0 +1,3 @@
+== Vanity Address
+
+A bitcoin address with a desirable pattern, such as a name.

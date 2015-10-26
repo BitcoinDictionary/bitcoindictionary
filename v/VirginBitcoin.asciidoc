@@ -1,0 +1,3 @@
+== Virgin Bitcoin
+
+Bitcoins purchased as a reward for mining a block. These have not yet been spent anywhere.

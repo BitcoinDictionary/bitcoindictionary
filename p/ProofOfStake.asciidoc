@@ -1,0 +1,3 @@
+== Proof of Stake
+
+An alternative to proof of work, in which your existing stake in a currency (the amount of that currency that you hold) is used to calculate the amount of that currency that you can mine.
