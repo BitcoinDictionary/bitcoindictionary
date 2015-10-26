@@ -1,0 +1,3 @@
+== Blockchain.info
+
+A web service running a link:../b/Bitcoin.ascii[Bitcoin] link:../n/Node.asciidoc[node] and displaying statistics and raw data of all the link:../t/Transaction.asciidoc[transactions] and link:../b/Block.asciidoc[blocks]. It also provides a web wallet functionality with link:../l/Lightweight_Client.asciidoc[lightweight clients] for Android, iOS and OS X.
