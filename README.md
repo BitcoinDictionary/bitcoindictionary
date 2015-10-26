@@ -10,6 +10,7 @@ To contribute to this repository, please:
 + Make a fork of this repo.
 + Make the suitable changes in your fork.
 + Submit a pull request. 
+
 Alternatively, if you cannot use the github.com pull request system, submit an Issue from the menu on the right.
 Major contributions will receive an acknowledgment in the preface of the book, the website and on the mobile apps.
 
