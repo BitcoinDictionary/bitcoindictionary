@@ -1,0 +1,5 @@
+== ASIC Miner
+
+A Chinese manufacturer that makes custom link:../a/ASIC.asciidoc[mining hardware], sells shares for bitcoins, pays dividends from on-site mining and also ships actual hardware to customers.
+
+ASICMiner is a virtual identity totally held by investors of the Bitfountain company. The Bitfountain company's business includes mining with self-built link:../a/ASIC.asciidoc[ASIC] devices, as well as the sales of them.
