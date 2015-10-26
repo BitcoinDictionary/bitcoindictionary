@@ -1,0 +1,3 @@
+== Stale
+
+When a bitcoin block is successfully hashed, any others attempting to hash it may as well stop, because it is now ‘stale'. They would simply be repeating work that someone else has already done, for no reward. The term is also used in mining pools to describe a share of a hashing job that has already been completed.
