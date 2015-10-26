@@ -1,0 +1,3 @@
+== Cryptography
+
+The use of mathematics to create codes and ciphers that can be used to conceal information. Used as the basis for the mathematical problems used to verify and secure bitcoin transactions.
