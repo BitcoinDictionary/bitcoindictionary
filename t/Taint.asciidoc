@@ -1,0 +1,3 @@
+== Taint
+
+An analysis of how closely related two addresses are when they have both held a particular bitcoin. A taint analysis could be used to determine how many steps it took for bitcoins to move from an address known for stolen coins, to the current address.
