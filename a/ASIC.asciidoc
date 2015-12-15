@@ -12,4 +12,4 @@ ASIC typically refers to specialised mining chips or the whole machines built on
 
 === See Also
 
-ink:../a/ASICMiner.asciidoc[ASICMiner]
+link:../a/ASICMiner.asciidoc[ASICMiner]
