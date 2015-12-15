@@ -1,0 +1,925 @@
+== 51% attack
+
+A condition in which more than half the computing power on a cryptocurrency network is controlled by a single miner or group of miners.
+That amount of power theoretically makes them the authority on the network.
+This means that every client on the network believes the attacker’s hashed transaction block.
+This gives them control over the network, including the power to:
+- Issue a transaction that conflicts with someone else's.
+- Stop someone else's transaction from being confirmed.
+- Spend the same coins multiple times.
+- Prevent other miners from mining valid blocks.
+
+== AML
+
+Anti-Money Laundering techniques are used to stop people converting illegally obtained funds, to appear as though they have been earned legally. 
+AML mechanisms can be legal or technical in nature. 
+Regulators frequently apply AML techniques to bitcoin exchanges.
+
+== ASIC
+
+Stands for 'Application Specific iIntegrated Circuit'.
+
+This is a chip designed to perform a narrow set of tasks (compared to CPU or GPU that perform a wide range of functions).
+
+ASIC typically refers to specialised mining chips or the whole machines built on these chips. Some ASIC manufacturers are: 
+- Avalon
+- link:../a/ASICMiner.asciidoc[ASICMiner]
+- Butterfly Labs (BFL)
+- Cointerra.
+
+=== See Also
+
+link:../a/ASICMiner.asciidoc[ASICMiner]
+
+== ASIC Miner
+
+A Chinese manufacturer that makes custom link:../a/ASIC.asciidoc[mining hardware], sells shares for bitcoins, pays dividends from on-site mining and also ships actual hardware to customers.
+
+ASICMiner is a virtual identity totally held by investors of the Bitfountain company. The Bitfountain company's business includes mining with self-built link:../a/ASIC.asciidoc[ASIC] devices, as well as the sales of them.
+
+== Address
+
+A Bitcoin address is a link:../b/Base58Check.asciidoc[Base58Check] representation of a link:../h/Hash160.asciidoc[Hash160] of a link:../p/Public_Key.asciidoc[public key] with a version byte 0x00 which maps to a prefix “1”. Typically represented as text (e.g. 1CBtcGivXmHQ8ZqdPgeMfcpQNJrqTrSAcG) or as a QR code.
+
+A more recent variant of an address is a link:../p/P2SH.asciidoc[P2SH] address: a hash of a spending script with a version byte 0x05 which maps to a prefix “3” (e.g. 3NukJ6fYZJ5Kk8bPjycAnruZkE5Q7UW7i8).
+
+Another variant of an address is not a link:../h/Hash.asciidoc[hash], but a raw link../p/Private_Key.asciidoc[private key] representation (e.g. 5KQntKuhYWSRXNqp2yhdXzjekYAR7US3MT1715Mbv5CyUKV6hVe). It is rarely used, only for importing/exporting link:../p/Private_Key.asciidoc[private keys] or printing them on link:../p/Paper_Wallet.asciidoc[paper wallets].
+
+== Altcoin
+
+A clone of the link:../b/Bitcoin.asciidoc[Bitcoin Protocol] with some modifications. Usually all altcoins have rules incompatible with the link:../b/Bitcoin.asciidoc[Bitcoin Protocol] and have their own link:../g/Genesis_Block.asciidoc[genesis blocks].
+
+The most notable altcoins are litecoin (uses faster block confirmation time and scrypt as a proof-of-work) and namecoin (has a special key-value storage).
+
+In theory, an altcoin can be started from an existing Bitcoin link:../b/Blockchain.asciidoc[Blockchain] if someone wants to support a different set of rules (although, there is no such example to date).
+
+=== See also
+
+link:../f/Fork.asciidoc[Fork]
+
+== Appcoin
+
+A digital link:../t/Token.asciidoc[token] built to be the exclusive or preferred means of accessing a specific applications features.
+
+== BIP
+
+Bitcoin Improvement Proposals. These are RFC-like documents modelled after PEPs (Python Enhancement Proposals) discussing different aspects of the protocol and software. Most interesting BIPs describe link:../h/Hard_Fork.asciidoc[hard fork] changes in the core protocol that require supermajority of Bitcoin users (or, in some cases, only miners) to agree on the change and accept it in an organised manner.
+
+== Bitcoin Market Potential Index (BMPI)
+
+The Bitcoin Market Potential Index (BMPI) uses a data set to rank the potential utility of bitcoin across 177 countries. 
+It attempts to show which markets have the greatest potential for bitcoin adoption.
+
+== Bitcoin Price Index (BPI)
+
+The lin:http://www.coindesk.com/price/[Bitcoin Price Index] represents an average of bitcoin prices across leading global exchanges that meet criteria specified by the BPI. 
+There is also an link:http://www.coindesk.com/api/[API] for developers to use.
+== BTC
+
+The most popular informal currency code for 1 link:../b/Bitcoin.asciidoc[bitcoin] (defined as 100 000 000 link:../s/Satoshi.asciidoc[satoshis]).
+
+
+=== See also
+
+XBT
+
+== Base58
+
+A compact human-readable encoding for binary data invented by link:../s/Satoshi_Nakamoto.asciidoc[Satoshi Nakamoto] to make more user-friendly link:../a/Address.asciidoc[addresses]. It consists of alphanumeric characters, but does not allow “0”, “O”, “I”, “l” characters that look the same in some fonts and could be used to create visually identical looking addresses. Lowercase “o” and “1” are allowed.
+
+== Base58Check
+
+A variant of link../b/Base58.asciidoc[Base58] encoding that appends first 4 bytes of link:../h/Hash256.asciidoc[Hash256] of the encoded data to that data before converting to link../b/Base58.asciidoc[Base58]. It is used in link:../a/Address.asciidoc[addresses] to detect typing errors.
+
+== Bitcoin-Ruby
+
+A full link:../b/Bitcoin.asciidoc[Bitcoin] implementation in Ruby by Julian Langschaedel.
+
+It's used in production on link:../c/Coinbase.asciidoc[Coinbase].
+
+== Bitcoin
+
+Refers to a protocol, network or a unit of currency.
+
+As a protocol, Bitcoin is a set of rules that every link:../c/Client.asciidoc[client] must follow to accept link:../t/Transction.asciidoc[transactions] and have its own link:../t/Transction.asciidoc[transactions] accepted by other clients. Also includes a message protocol that allows link:../n/Node.asciidoc[nodes] to connect to each other and exchange link:../t/Transction.asciidoc[transactions] and link:../b/Block.asciidoc[blocks].
+
+As a network, Bitcoin is all the computers that follow the same rules and exchange link:../t/Transction.asciidoc[transactions] and link:../b/Block.asciidoc[blocks] between each other.
+
+As a unit, one Bitcoin (link:../b/BTC.asciidoc[BTC], link:../x/XBT.asciidoc[XBT]) is defined as 100 million link:../s/Satoshi.asciidoc[satoshis], the smallest units available in the current link:../t/Transction.asciidoc[transaction] format. 
+
+Bitcoin is written in lower case when speaking about the amount: “I received 0.4 bitcoins.”
+
+== BitcoinD
+
+This was the original implementation of link:../b/Bitcoin.asciidoc[Bitcoin] with a command line interface. Currently a part of link:../b/BitcoinQt.asciidoc[BitcoinQt] project. “D” stands for “daemon” per UNIX tradition to name processes running in background.
+
+=== See also
+
+link:../b/BitcoinQt.asciidoc[BitcoinQt]
+
+== BitcoinQt
+
+link:../b/Bitcoin.asciidoc[Bitcoin] implementation based on original code by link:../s/Satoshi_Nakamoto.asciidoc[Satoshi Nakamoto]. Includes a graphical interface for Windows, OS X and Linux (using QT) and a command-line executable link:../b/BitcoinD.asciidoc[BitcoinD] that is typically used on servers.
+
+It is considered a reference implementation as it's the most used link:../f/Full_Node.asciidoc[full node] implementation, especially among link:../m/Miner.asciidoc[miners]. Other implementations must be bug-for-bug compatible with it to avoid being link:../f/Fork.asciidoc[forked]. BitcoinQT uses OpenSSL for its link:../e/ECDSA.asciidoc[ECDSA] operations which has its own quirks that became a part of the standard (e.g. non-canonically encoded link:../p/Public_Key.asciidoc[public keys] are accepted by OpenSSL without an error, so other implementations must do the same).
+
+== Bitcoin ATM
+
+A bitcoin ATM is a physical machine that allows a customer to buy bitcoin with cash. 
+There are many manufacturers, some of which enable users to sell bitcoin for cash. 
+They are also sometimes called 'BTMs' or 'Bitcoin AVMS'. 
+CoinDesk maintains a link:http://www.coindesk.com/bitcoin-atm-map/[worldwide map] of operational bitcoin atm machines and a list of manufacturers.
+== Bitcoin Investment Trust
+
+This private, open-ended trust invests exclusively in bitcoins and uses a state-of-the-art protocol to store them safely on behalf of its shareholders. It provides a way for people to invest in bitcoin without having to purchase and safely store the digital currency themselves. Read more http://grayscale.co/bitcoin-investment-trust/[here].
+
+== Bitcoin Whitepaper
+
+The bitcoin whitepaper was written by http://www.coindesk.com/information/who-is-satoshi-nakamoto/['Satoshi Nakamoto’] and posted to a Cryptography Mailing list in 2008. The paper describes the bitcoin protocol in detail, and is well worth a https://bitcoin.org/bitcoin.pdf[read]. Satoshi Nakamoto followed this by releasing the bitcoin code in 2009.
+
+== Bitcoinj
+
+A Java implementation of a link:../f/Full_Node.asciidoc[full node] by Mike Hearn. It also includes link:../s/SPV.asciidoc[SPV] implementation among other features.
+
+== Bitcoinjs
+
+An incomplete JavaScript implementation of a link:../b/Bitcoin.asciidoc[Bitcoin] link:../c/Client.asciidoc[client]. Allows signing link:../t/Transction.asciidoc[transactions] and performing several link:../e/Elliptic_Curve_Arithmetic.asciidoc[elliptic curve operations]. It's used on link:http://brainwallet.org[brainwallet.org].
+
+== Block
+
+A data structure that consists of a link:../b/Block_Header[block header] and a link:../m/Merkle_Tree[merkle tree] of link:../t/Transaction[transactions]. Each block (except for the link:../g/Genesis_Block[genesis block]) references one previous block thus forming a tree called the link:../b/Blockchain.asciidoc[Blockchain].
+
+Block can be thought of as a group of link:../t/Trasaction.asciidoc[transactions] with a link:../t/Timestamp.asciidoc[timestamp] and a link:../p/Proof-of-Work.asciidoc[proof-of-work] attached.== Block Header
+
+A data structure containing a previous link:../b/Block.asciidoc[block] link:../h/Hash.asciidoc[hash], a link:../h/Hash.asciidoc[hash] of a link:../m/Merkle_Tree[merkle tree] of link:../t/Transaction.asciidoc[transactions], a link:../t/Timestamp[timestamp], a link:../d/Difficulty.asciidoc[difficulty] and a link:../n/Nonce.asciidoc[nonce].
+
+== Block Height
+
+A sequence number of a link:../b/Block.asciidoc[block] in the link:../b/Blockchain.asciidoc[Blockchain].
+
+Height 0 refers to the link:../g/Genesis_Block.asciidoc[genesis block]. Several link:../b/Block.asciidoc[blocks] may share the same link:../h/Height.asciidoc[height], but only one of them belongs to the link:../m/Main_Chain.asciidoc[main chain].
+
+Block height is used in link:../l/Lock_Time.asciidoc[lock time].
+
+=== See Also
+
+link:../o/Orphan.asciidoc[Orphan]
+
+== Block Reward
+
+The reward given to a miner which has successfully hashed a transaction block. This can be a mixture of coins and transaction fees, depending on the policy used by the cryptocurrency in question, and whether all of the coins have already been successfully mined. Bitcoin currently awards 25 bitcoins for each block. The block reward halves when a certain number of blocks have been mined. In bitcoin’s case, the threshold is every 210,000 blocks.
+
+== Blockchain
+
+A public ledger of all link:../c/Confirmed_Transaction.asciidoc[confirmed transactions] in a form of a tree of all valid link:../b/Block.asciidoc[blocks] (including link:../o/Orphan.asciidoc[orphans]). Most of the time, “blockchain” means the link:../m/Main_Chain.asciidoc[main chain], a single most link:../d/Difficulty.asciidoc[difficult] chain of link:../b/Block.asciidoc[blocks].
+
+The Blockchain is updated by link:../m/Mining.asciidoc[mining] link:../b/Block.asciidoc[blocks] with new link:../t/Transaction.asciidoc[transactions]. link:../u/Unconfirmed_Transaction.asciidoc[Unconfirmed transactions] are not part of the blockchain. If some link:../c/Client.asciidoc[clients] disagree on which chain is main or which link:../b/Block.asciidoc[blocks] are valid, a link:../f/Fork.asciidoc[fork] happens.
+
+== Blockchain.info
+
+A web service running a link:../b/Bitcoin.ascii[Bitcoin] link:../n/Node.asciidoc[node] and displaying statistics and raw data of all the link:../t/Transaction.asciidoc[transactions] and link:../b/Block.asciidoc[blocks]. It also provides a web wallet functionality with link:../l/Lightweight_Client.asciidoc[lightweight clients] for Android, iOS and OS X.
+
+== Brain Wallet
+
+Brain wallet is a concept of storing link:../p/Private_Key.ascii[private keys] as a memorable phrase without any digital or paper trace. Either a single key is used for a single link:../a/Address.asciidoc[address], or a link:../d/Deterministic_Wallet.asciidoc[deterministic wallet] derived from a single key.
+
+If done properly, a brain wallet greatly reduces the risk of theft because it is completely deniable: no one could say which or how much bitcoins you own as there are no actual wallet files to be found anywhere. However, it is the most error-prone method as one can simply forget the secret phrase, or make it too simple for anyone to brute force and steal all the funds. Additional risks are added by a complex wallet software. E.g. link:../b/BitcoinQT.asciidoc[BitcoinQT] always sends link:../c/Change.asciidoc[change] amount to a new link:../a/Address.asciidoc[address]. If a link:../p/Private_Key.asciidoc[private key] is imported temporarily to spend 1% of the funds and then the wallet is deleted, the remaining 99% will be lost forever as they are moved as a link:../c/Change.asciidoc[change] to a completely new link:../a/Address.asciidoc[address]. This already happened to a number of people.
+
+== Brainwallet.org
+
+Utility based on link:../b/Bitcoinjs.asciidoc[Bitcoinjs] to craft link:../t/Transction.asciidoc[transactions] by hand, convert a link:../p/Private_Key.asciidoc[private key] to link:../a/Address.asciidoc[addresses] and work with a link:../b/Brain_Wallet.asciidoc[brain wallet]. 
+
+== Buttonwood
+
+A project founded by bitcoin enthusiast Josh Rossi, to form a public outcry bitcoin exchange in New York's Union Square. 
+Named after the Buttonwood agreement, which formed the basis for the New York Stock Exchange in 1792
+
+== Casascius Coins
+
+Physical collectible coins produced by Mike Caldwell. Each coin contains a link:../p/Private_Key.asciidoc[private key] under a tamper-evident hologram. The name “Casascius” is formed from a phrase “call a spade a spade”, as a response to a name of link:../b/Bitcoin.asciidoc[Bitcoin] itself.
+
+== Change
+
+Informal name for a portion of a link:../t/Transaction_Output.asciidoc[transaction output] that is returned to a sender as a “change” after spending that link:../o/Output.asciidoc[output]. Since link:../t/Transaction_Output.asciidoc[transaction outputs] cannot be partially link:../s/Spent_Output.asciidoc[spent], one can spend 1 link:../b/BTC.asciidoc[BTC] out of 3 link:../b/BTC.asciidoc[BTC]  link:../o/Output.asciidoc[outputs] only be creating two new link:../o/Output.asciidoc[outputs]: a “payment” output with 1 BTC sent to a payee address, and a “change” output with remaining 2 BTC (minus link:../t/Transaction_Fee.asciidoc[transaction fees]) sent to the payer's addresses.
+
+link:../b/BitcoinQt.asciidoc[BitcoinQt] always uses new link:../a/Address.asciidoc[address] from a key pool for a better privacy.
+
+link:../b/Blockchain.info.asciidoc[Blockchain.info] sends to a default link:../a/Address.asciidoc[address] in the link:../w/Wallet.asciidoc[wallet].
+
+A common mistake when working with a link:../p/Paper_Wallet.asciidoc[paper wallet] or a link:../b/Brain_Wallet.asciidoc[brain wallet] is to make a link:../c/Change.asciidoc[change] link:../t/Transction.asciidoc[transaction] to a different address and then accidentally delete it. E.g. when importing a link:../p/Private_Key.asciidoc[private key] in a temporary link:../b/BitcoinQt.asciidoc[BitcoinQt] link:../w/Wallet[wallet], making a link:../t/Transction.asciidoc[transaction] and then deleting the temporary link:../w/Wallet[wallet].
+
+== Checkpoint
+
+A link:../h/Hash.asciidoc[hash] of a link:../b/Block.asciidoc[block] before which the link:../b/BitcoinQt.asciidoc[BitcoinQt] link:../c/Client.asciidoc[client] downloads link:../b/Block.asciidoc[blocks] without verifying digital link:../s/Signature.asciidoc[signatures] for performance reasons.
+
+A checkpoint usually refers to a very deep link:../b/Block.asciidoc[block] (at least several days old) when it's clear to everyone that that block is accepted by the overwhelming majority of users and link:../r/Reorganisation.asciidoc[reorganisation] will not happen past that point.
+
+It also helps protecting most of the history from a link:../f/Fifty-One_Percent_Attack.asciidoc[51% attack]. Since checkpoints affect how the link:../m/Main_Chain.asciidoc[main chain] is determined, they are part of the protocol and must be recognised by alternative link:../c/Client.asciidoc[clients] (although, the risk of link:../r/Reorganisation.asciidoc[reorganisation] past the checkpoint would be incredibly low).
+
+== Circle
+
+https://www.circle.com/en[Circle] is an exchange and wallet service, offering users worldwide the chance to store, send, receive and exchange bitcoins.
+
+== Client
+
+See link:../n/Node.asciidoc[Node].
+
+== Coin
+
+An informal term that means either 1 link:../b/Bitcoin[bitcoin], or an link:../s/Spent_Output.asciidoc[unspent] link:../t/Transaction_Output.asciidoc[transaction output] that can be link:../s/Spent_Output.asciidoc[spent].
+
+== Coin Age
+
+The age of a coin, defined as the currency amount multiplied by the holding period.
+
+== Coinbase
+
+An link:../i/Input[input] script of a link:../t/Transaction.asciidoc[transaction] that generates new link:../b/Bitcoin.asciidoc[bitcoins]. Or a name of that transaction itself (“coinbase transaction”).
+
+A Coinbase link:../t/Transaction.asciidoc[transaction] does not link:../s/Spent_Output.asciidoc[spend] any existing transactions, but contains exactly one link:../i/Input.asciidoc[input] which may contain any data in its link:../s/Script.asciidoc[script].
+
+The link:../g/Genesis_Block.asciidoc[genesis block] link:../Transaction.asciidoc[transaction] contains a reference to a Times article from January 3rd 2009 to prove that more link:../b/Block.asciidoc[blocks] were not created before that date. Some link:../m/Mining_Pool.asciidoc[mining pools] put their names in the coinbase transactions (so everyone can estimate how much link:../h/Hash_Rate.asciidoc[hash rate] each pool produces).
+
+Coinbase is also used to vote on a protocol change (e.g. link:../p/P2Sh.asciidoc[P2SH]). link:../m/Miner[Miners] vote by putting some agreed-upon marker in the coinbase to see how many support the change. If a majority of link:../m/Miner[miners] support it and expect non-mining users to accept it, then they simply start enforcing new rule. Minority then should either continue with a link:../f/Fork.asciidoc[forked] link:../b/Blockchain[blockchain] (thus producing an link:../a/Altcoin.asciidoc[altcoin]) or accept new rule.
+
+== coinbase.com
+
+A US-based Bitcoin/USD exchange and web wallet service
+
+== Cold Storage
+
+A collective term for various security measures to reduce the risk of remote access to the link:../p/Private_Key.asciidoc[private keys]. It could be a normal computer disconnected from the internet, or a dedicated hardware wallet, or a USB stick with a link:../w/Wallet.asciidoc[wallet] file, or a link:../Paper_Wallet.asciidoc[paper wallet].
+
+== Colored Coin
+
+A concept of adding a special meaning to certain link:../t/Transction_Output.asciidoc[transaction outputs]. This could be used to create a tradable commodity on top of the link:../b/Bitcoin.asciidoc[Bitcoin protocol]. For instance, a company may create 1 million shares and declare a single link:../t/Transction_Output.asciidoc[transaction outputs] containing 10 link:../b/BTC.ascii[BTC] (1 billion link:../s/Satoshi.asciidoc[satoshis]) as a source of these shares. Then, some or all of these link:../b/Bitcoin.asciidoc[bitcoins] can be moved to other link:../a/Address.asciidoc[addresses], sold or exchanged for anything. During a voting process or a dividend distribution, share owners can prove ownership by simply singing a particular message by the link:../Private_Key.asciidoc[private keys] associated with link:../a/Address.asciidoc[addresses] holding link:../b/Bitcoin.asciidoc[bitcoins] derived from the initial source.
+
+== CompactSize
+
+Original name of a variable-length integer format used in transaction and block serialisation. Also known as “Satoshi's encoding”.
+
+It uses 1, 3, 5 or 9 bytes to represent any 64-bit unsigned integer. Values lower than 253 are represented with 1 byte. Bytes 253, 254 and 255 indicate 16-, 32- or 64-bit integer that follows. Smaller numbers can be presented differently.
+
+In link:../b/Bitcoin-Ruby.asciidoc[Bitcoin-Ruby] it is called “var_int”, in link:../b/Bitcoinj.asciidoc[Bitcoinj] it is VarInt. BitcoinQt also has even more compact representation called VarInt which is not compatible with CompactSize and used in link:../b/Block.asciidoc[block] storage.
+
+== Confirmation Number
+
+Confirmation number is a measure of probability that transaction could be rejected from the main chain.
+
+“Zero confirmations” means that link:../t/Transaction.asciidoc[transaction] is unconfirmed (not in any block yet). One confirmation means that the link:../t/Transaction.asciidoc[transaction] is included in the latest block in the link:../m/Main_Chain.asciidoc[main chain]. Two confirmations means the link:../t/Transaction.asciidoc[transaction] is included in the link:../b/Block.asciidoc[block] right before the latest one. And so on.
+
+=== See also
+
+link:../c/Confirmed_Transaction.asciidoc[Confirmed Transaction]
+
+== Confirmed Transaction
+
+link:../t/Transaction.asciidoc[Transaction] that has been included in the link:../b/Blockchain.asciidoc[blockchain]. Probability of link:../t/Transaction.asciidoc[transaction] being rejected is measured in a number of confirmations.
+
+=== See also
+
+link:../c/Confirmation_Number.asciidoc[Confirmation Number].
+
+== Cryptocurrency
+
+A form of currency based on mathematics alone. Instead of fiat currency, which is printed, cryptocurrency is produced by solving mathematical problems based on cryptography.
+
+== Cryptography
+
+The use of mathematics to create codes and ciphers that can be used to conceal information. Used as the basis for the mathematical problems used to verify and secure bitcoin transactions.
+
+== Denial Of Service
+
+This is a form of attack on the network.
+
+link:../b/Bitcoin.asciidoc[Bitcoin] link:../n/Node.asciidoc[nodes] punish certain behaviour of other link:../n/Node.asciidoc[node] by banning their IP addresses for 24 hours to avoid DoS.
+
+Also, some theoretical attacks like link:../f/Fifty-One_Percent_Attachk.asciidoc[51% attack] may be used for network-wide DoS.
+
+== Depth
+
+Depth refers to a place in the link:../b/Blockchain.asciidoc[blockchain]. A link:../t/Transaction.asciidoc[transaction] with 6 confirmations can also be called “6 link:../b/Block.asciidoc[blocks] deep”.
+
+== Deterministic Wallet
+
+A deterministic wallet is a system of deriving keys from a single starting point known as a link:../s/Seed.asciidoc[seed]. The link:../s/Seed.asciidoc[seed] allows a user to easily back up and restore a link:../w/Wallet.asciidoc[wallet] without needing any other information and can in some cases allow the creation of link:../p/Public_Address.asciidoc[public addresses] without the knowledge of the link:../p/Private_Key.asciidoc[private key].
+
+=== References
+
+link:https://en.bitcoin.it/wiki/Deterministic_wallet[https://en.bitcoin.it/wiki/Deterministic_wallet]
+
+=== See also
+
+link:../w/Wallet.asciidoc[Wallet].
+
+== Difficulty
+
+Difficulty is a measure of how difficult it is to find a new link:../b/Block.asciidoc[block] compared to the easiest it can ever be. By definition, it is a maximum link:../t/Target.asciidoc[target] divided by the current link:../t/Target.asciidoc[target].
+
+Difficulty is used in two link:../b/Bitcoin.asciidoc[Bitcoin] rules:
+
+- Every block must be meet difficulty link:../t/Target.asciidoc[target] to ensure 10 minute interval between link:../b/Block.asciidoc[blocks] and - link:../t/Transacton.asciidoc[Transactions] are considered confirmed only when belonging to a link:../m/Main_Chain.asciidoc[main chain] which is the one with the biggest cumulative difficulty of all link:../b/Block.asciidoc[blocks].
+
+As of September 5, 2013 the difficulty is 86 933 018 and grows by 20-30% every two weeks.
+
+=== See also
+
+link:../t/Target.asciidoc[Target]
+
+== DoS
+
+See link:../d/Denial_of_Service.asciidoc[Denial of Service]
+
+== Double Spend
+
+A fraudulent attempt to spend the same link:../t/Transaction_Output.asciidoc[transaction output] twice. There are two major ways to perform a double spend:
+- reverting an link:../u/Unconfirmed_Transaction.asciidoc[unconfirmed transaction] by making another one which has a higher chance of being included in a link:../b/Block.asciidoc[block] (only works with merchants accepting link:../z/Zero-Confirmation.asciidoc[zero-confirmation] link:../t/Transaction.asciidoc[transactions]) or 
+- by link:../m/Mining.asciidoc[mining] a parallel link:../b/Blockchain.asciidoc[blockchain] with a second link:../t/Transaction.asciidoc[transaction] to overtake the chain where the first link:../t/Transaction.asciidoc[transaction] was included.
+
+link:../b/Bitcoin.asciidoc[Bitcoin] link:../p/Proof-of-Work.asciidoc[proof-of-work] scheme makes a probabilistic guarantee of link:../d/Difficulty.asciidoc[difficulty] to double spend link:../t/Transaction.asciidoc[transactions] included in the blockchain. The deeper link:../t/Transaction.asciidoc[transaction] is recorded in the link:../b/Blockchain.asciidoc[blockchain], the more expensive it is to “reverse” it.
+
+=== See also 
+
+link:../f/Fifty-One_Percent_Attack[51% attack].
+
+== Dust
+
+A link:../t/Transaction_Output.asciidoc[transaction output] that is smaller than a typical fee required to link:../s/Spent_Output.asciidoc[spend] it. This is not a strict part of the protocol, as any amount more than zero is valid.
+
+link:../b/BitcoinQt.asciidoc[BitcoinQt] refuses to link:../m/Mining.asciidoc[mine] or link:../r/Relaying_Transactions.asciidoc[relay] “dust” link:../t/Transaction.asciidoc[transactions] to avoid uselessly increasing the size of link:../u/UTXO_Set.asciidoc[unspent transaction outputs (UTXO)] index.
+
+== ECDSA
+
+Stands for Elliptic Curve Digital Signature Algorithm. It's used to verify link:../t/Transaction.asciidoc[transaction] ownership when making a transfer of link:../b/Bitcoin.asciidoc[bitcoins].
+
+=== See Also
+
+link:../s/Signature.asciidoc[Signature]
+
+== Elliptic Curve Arithmetic
+
+A set of mathematical operations defined on a group of points on a 2D elliptic curve. The link:../b/Bitcoin.asciidoc[Bitcoin protocol] uses predefined curve secp256k1.
+
+Here's the simplest possible explanation of the operations: you can add and subtract points and multiply them by an integer. Dividing by an integer is computationally infeasible (otherwise cryptographic signatures won't work). The link:../p/Private_Key.asciidoc[private key] is a 256-bit integer and the link:../p/Publick_Key.asciidoc[public key] is a product of a predefined point G (“generator”) by that integer: A = G * a.
+
+Associativity law allows implementing interesting cryptographic schemes like Diffie-Hellman key exchange (ECDH): two parties with link:../p/Private_Key.asciidoc[private keys] A and B may exchange their link:../p/Publick_Key.asciidoc[public key] A and B to compute a shared secret point C: C = A * b = B * a because (G * a) * b == (G * b) * a. Then this point C can be used as an AES encryption key to protect their communication channel.
+
+== Escrow
+
+The act of holding funds or assets in a third-party account to protect them during an asynchronous transaction. If Bob wants to send money to Alice in exchange for a file, but they cannot conduct the exchange in person, then how can they trust each other to send the money and file to each other at the same time? Instead, Bob sends the money to Eve, a trusted party who holds the funds until Bob confirms that he has received the file from Alice. She then sends Alice the money.
+
+== Extra Nonce
+
+A number placed in a link:../c/Coinbase.asciidoc[coinbase script] and incremented by a link:../m/Miner.asciidoc[miner] each time the nonce 32-bit integer overflows. This is not the required way to continue link:../m/Mining.asciidoc[mining] when nonce overflows, one can also change the link:../m/Merkle_Tree.asciidoc[merkle tree] of link:../t/Transaction.asciidoc[transactions] or change a link:../p/Publick_Key.asciidoc[public key] used for collecting a link:../b/Block.asciidoc[block] link:../r/Reward.asciidoc[reward].
+
+=== See also
+
+link:../n/Nonce.asciidoc[Nonce]
+
+== Faucet
+
+A technique used when first launching an http://altcoins.com/[altcoin]. A set number of coins are pre-mined, and given away for free, to encourage people to take interest in the coin and begin mining it themselves.
+
+== Fee
+
+See link:../t/Transaction_Fee.asciidoc[Transaction Fee]
+
+== 51% attack
+
+It's also known as >50% attack or a link:../d/Double_Spend.asciidoc[double spend] attack.
+
+An attacker can make a payment, wait till the merchant accepts some number of link:../c/Confirmed_Transaction.asciidoc[confirmations] and provides the service, then starts link:../m/Mining.asciidoc[mining] a parallel chain of link:../b/Block.asciidoc[blocks] starting with a link:../b/Block.asciidoc[block] before the link:../t/Transaction.asciidoc[transaction]. This parallel link:../b/Blockchain.asciidoc[blockchain] then includes another link:../t/Transaction.asciidoc[transaction] that spends the same link:../o/Output.asciidoc[outputs] on some other link:../a/Address.asciidoc[address]. When the parallel chain becomes more link:../d/Difficulty.asciidoc[difficult], it is considered a link:../m/Main_Chain.asciidoc[main chain] by all link:../n/Node.asciidoc[nodes] and the original link:../t/Transaction.asciidoc[transaction] becomes invalid.
+
+Having more than a half of the total link:../h/Hash_Rate.asciidoc[hash rate] guarantees the possibility to overtake a chain of any length, hence the name of an attack (strictly speaking, it is “more than 50%”, not 51%). Also, even 40% of the hash rate allows making a link:../d/Double_Spend.asciidoc[double spend], but the chances are less than 100% and are diminishing exponentially with the number of link:../c/Confirmed_Transaction.asciidoc[confirmations] that the merchant requires.
+
+This attack is considered theoretical as owning more than 50% of link:../h/Hash_Rate.asciidoc[hash rate] might be much more expensive than any gain from a link:../d/Double_Spend.asciidoc[double spend].
+
+Another variant of this attack is to disrupt the network by mining empty blocks, thus censoring all link:../t/Transaction.asciidoc[transactions].
+
+This attack can be mitigated by blacklisting blocks that most of “honest” link:../m/Miner.asciidoc[miners] consider abnormal. Under normal conditions, miners and link:../m/Mining_Pool.asciidoc[mining pools] do not censor link:../b/Block.asciidoc[blocks] and link:../t/Transaction.asciidoc[transactions] as it may diminish trust in link:../b/Block.asciidoc[Bitcoin] and thus their own investments. A 51% attack is also mitigated by using link:../c/Checkpoint.asciidoc[checkpoints] that prevent link:../r/Reorganisation.asciidoc[reorganisation] past a certain link:../b/Block.asciidoc[block].
+
+== Fork
+
+Refers either to a fork of a source code (see link:../a/Altcoin.asciidoc[altcoin]) or, more often, to a link:../s/Split.asciidoc[split] of the link:../b/Blockchain.asciidoc[blockchain] when two different parts of the network see different link:../m/Main_Chain.asciidoc[main chains].
+
+In a sense, a fork occurs every time two link:../b/Block.asciidoc[blocks] of the same link:../h/Height.asciidoc[height] are created at the same time. Both link:../b/Block.asciidoc[blocks] always have the different link:../h/Hash.asciidoc[hashes] (and therefore different link:../d/Difficulty.asciidoc[difficulty]), so when a link:../n/Node.asciidoc[node] sees both of them, it will always choose the most difficult one. However, before both link:../b/Block.asciidoc[blocks] arrive to a majority of link:../n/Node.asciidoc[nodes], two parts of the network will see different link:../b/Block.asciidoc[blocks] as tips of the link:../m/Main_main chain.
+
+The term fork (or hard fork) also refers to a change of the protocol that may lead to a split of the network (by design or because of a bug). On March 11 2013 a smaller half of the network running version 0.7 of BitcoinD could not include a large (>900 Kb) link:../b/Block.asciidoc[block] at link:../h/Height.asciidoc[height] 225430 created by a link:../m/Miner.asciidoc[miner] running newer version 0.8. The link:../b/Block.asciidoc[block] could not be included because of the bug in v0.7 which was fixed in v0.8. Since the majority of computing power did not have a problem, it continued to build a chain on top of a problematic link:../b/Block.asciidoc[block]. When the issue was noticed, majority of 0.8 link:../m/Miner.asciidoc[miners] agreed to abandon 24 link:../b/Block.asciidoc[blocks] incompatible with 0.7 link:../m/Miner.asciidoc[miners] and link:../m/Mining.asciidoc[mine] on top of 0.7 chain. Except for one link:../d/Double_Spend.asciidoc[double spend] experiment against OKPay, all link:../t/Transasction.asciidoc[transactions] during the fork were properly included in both sides of the link:../b/Blockchain.asciidoc[blockchain].
+
+== Freicoin
+
+A cryptocurrency based on the inflation-free principles outlined by the economist Silvio Gessell.
+
+== Full Node
+
+A link:../n/Node.asciidoc[node] which implements all of link:../b/Bicoin.asciidoc[Bitcoin protocol] and does not require trusting any external service to validate link:../t/Transaction.asciidoc[transactions]. It is able to download and validate the entire link:../b/Blockchain.asciidoc[blockchain]. All full nodes implement the same peer-to-peer messaging protocol to exchange link:../t/Transaction.asciidoc[transactions] and link:../b/Block.asciidoc[blocks], but that is not a requirement. A full node may receive and validate data using any protocol and from any source. However, the highest security is achieved by being able to communicate as fast as possible with as many link:../n/Node.asciidoc[nodes] as possible.
+
+== Genesis Block
+
+The very first link:../b/Block.asiidoc[block] in the link:../b/Blockchain.ascii[blockchain] with hard-coded contents and an all-zero reference to a previous link:../b/Block.asiidoc[block]. The Genesis block was released on 3rd of January 2009 with a newspaper quote in its link:../c/Coinbase.asciidoc[coinbase]: “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks” as a proof that there are no secretly link:../m/Mining.asciidoc[pre-mined] link:../b/Block.asiidoc[blocks] to overtake the link:../b/Blockchain.asciidoc[blockchain] in the future. The message ironically refers to a reason for link:../b/Bitcoin.asciidoc[Bitcoin] existence: a constant inflation of money supply by governments and banks.
+
+== Halving
+
+Reducing the reward every 210 000 blocks (approximately every 4 years). Since the genesis block to a block 209999 in December 2012 the reward was 50 BTC. Till 2016, it will be 25 BTC, then 12.5 BTC and so on till 1 satoshi around 2140 after which point no more bitcoins will ever be created. Due to reward halving, the total supply of bitcoins is limited: only about 2100 trillion satoshis will ever be created.
+
+== Hard Fork
+
+Some people use term hard fork to stress that changing the Bitcoin protocol requires an overwhelming majority to agree with it, or some noticeable part of the economy will continue with the original blockchain, following the old rules.
+
+
+=== See also
+
+Fork
+Soft Fork
+
+== Hash
+
+To compute a hash function of some data. If hash function is not mentioned explicitly, it is the one defined by the context. For instance, “to hash a transaction” means to compute Hash256 of binary representation of a transaction.
+
+== Hash160
+
+SHA-256 hashed with RIPEMD-160. It is used to produce an address because it makes a smaller hash (20 bytes vs 32 bytes) than SHA-256, but still uses SHA-256 internally for security.
+
+It's known as BTCHash160() in CoreBitcoin, Hash160() in BitcoinQt. It is also available in scripts as OP_HASH160.
+
+== Hash256
+
+When not speaking about arbitrary hash functions, hash refers to two rounds of SHA-256. This means that you should compute a SHA-256 hash of your data and then another SHA-256 hash of that hash.
+
+It is used in block header hashing, transaction hashing, making a merkle tree of transactions, or computing a checksum of an address.
+
+It's known as BTCHash256() in CoreBitcoin, Hash() in BitcoinQt. It is also available in scripts as OP_HASH256.
+
+== Hash Function
+
+The Bitcoin protocol mostly uses two cryptographic hash functions: SHA-256 and RIPEMD-160. The first one is almost exclusively used in the two round hashing (Hash256), while the latter one is only used in computing an address (see also Hash160).
+
+Scripts may use not only Hash256 and Hash160, but also SHA-1, SHA-256 and RIPEMD-160.
+
+== Hash Rate
+
+A measure of mining hardware performance expressed in hashes per second. As of September 5 2013, the hash rate of all Bitcoin mining nodes combined is around 647 000 Gh/s. For comparison, AMD Radeon graphics cards produce from 200 to 800 Mh/s depending on the model.
+
+== Height
+
+See Block Height
+
+== Input
+
+See Transaction Input
+
+== Key
+
+Could mean an ECDSA public key or ECDSA private key, or AES symmetric encryption key. AES is not used in the protocol itself (only to encrypt the ECDSA keys and other sensitive data), so usually the word key means an ECDSA key. When talking about keys, people usually mean private keys as public keys can always be derived from a private one.
+
+=== See also
+
+Public Key
+Private Key
+
+== Lightweight Client
+
+Compared to a full node, a lightweight node does not store the whole blockchain and thus cannot fully verify any transaction. There are two kinds of lightweight nodes: those fully trusting an external service to determine wallet balance and validity of transactions (e.g. blockchain.info) and the apps implementing Simplified Payment Verification (SPV). SPV clients do not need to trust any particular service, but are more vulnerable to a 51% attack than full nodes.
+
+
+See also
+
+Simplified Payment Verification
+
+== Lock Time
+
+A 32-bit field in a transaction that means either a block height at which the transaction becomes valid, or a UNIX timestamp.
+
+Zero means transaction is valid in any block. A number less than 500000000 is interpreted as a block number (the limit will be hit after year 11000), otherwise a timestamp.
+
+== M-Of-N Multi-Signature Transaction
+
+A transaction that can be spent using M signatures when N public keys are required (M is less or equal to N).
+
+Multi-signature transactions that only contain one OP_CHECKMULTISIG opcode and N is 3, 2 or 1 are considered standard.
+
+
+== Main Chain
+
+A part of the blockchain which a node considers the most difficult. All nodes store all valid blocks, including orphans and recompute the total difficulty when receiving another block.
+
+If the newly arrived block or blocks do not extend the existing main chain, but create another one from some previous block, it is called reorganisation.
+
+== Mainnet
+
+Main Bitcoin network and its blockchain. The term is mostly used in comparison to testnet.
+
+== Mempool
+
+A technical term for a collection of unconfirmed transactions stored by a node until they either expire or get included in the main chain. When reorganisation happens, transactions from orphaned blocks either become invalid (if already included in the main chain) or moved to a pool of unconfirmed transactions.
+
+By default, BitcoinD nodes throw away unconfirmed transactions after 24 hours.
+
+== Merkle Tree
+
+Merkle tree is an abstract data structure that organises a list of data items in a tree of their hashes (like in Git, Mercurial or ZFS).
+
+In Bitcoin the merkle tree is used only to organise transactions within a block (the block header contains only one hash of a tree) so that full nodes may prune fully spent transactions to save disk space.
+
+SPV clients store only block headers and validate transactions if they are provided with a list of all intermediate hashes.
+
+== Miner
+
+A person, a software or a hardware that performs mining.
+
+== Mining
+
+A process of finding valid hashes of a block header by iterating millions of variants of block headers (using nonce and extra nonce) in order to find a hash lower than the target (see also difficulty).
+
+The process needs to determine a single global history of all transactions (grouped in blocks).
+
+Mining consumes time and electricity and nowadays the difficulty is so big, that energy-wise it's not even profitable to mine using video graphics cards. Mining is paid for by transaction fees and by block rewards (newly generated coins, hence the term “mining”).
+
+== Mining Pool
+
+A service that allows separate owners of mining hardware to split the reward proportionally to submitted work. Since probability of finding a valid block hash is proportional to miner's hash rate, small individual miners may work for months before finding a big per-block reward.
+
+Mining pools allow more steady stream of smaller income. The pool owner determines the block contents and distributes ranges of nonce values between its workers. Normally, mining pools are centralised. P2Pool is a fully decentralised pool.
+
+== Mixing
+
+A process of exchanging coins with other persons in order to increase privacy of one's history. Sometimes it is associated with money laundering, but strictly speaking it is orthogonal to laundering. In traditional banking, a bank protects customer's privacy by hiding transactions from all 3rd parties. In Bitcoin any merchant may do a statistical analysis of one's entire payment history and determine, for instance, how many bitcoins one owns. While it's still possible to implement KYC (Know You Customer) rules on a level of every merchant, mixing allows to to separate information about one's history between the merchants.
+
+Most important use cases for mixing are:
+
+- receiving a salary as a single big monthly payment and then spending it in small transactions (“cafe sees thousands of dollars when you pay just $4”);
+
+- making a single payment and revealing connection of many small private spendings (“car dealer sees how much you are addicted to coffee”).
+
+In both cases your employer, a cafe and a car dealer may comply with KYC/AML laws and report your identity and transferred amounts, but neither of them need to know about each other. Mixing bitcoins after receiving a salary and mixing them before making a big payment solves this privacy problem.
+
+== mBTC
+
+1 thousandth of a bitcoin (0.001 BTC).
+
+== Node
+
+Node, or client, is a computer on the network that speaks Bitcoin message protocol (exchanging transactions and blocks). There are full nodes that are capable of validating the entire blockchain and lightweight nodes, with reduced functionality.
+
+Wallet applications that speak to a server are not considered nodes.
+
+== Non-Standard Transaction
+
+Any valid transaction that is not standard. Non-standard transactions are not relayed or mined by default BitcoinQt nodes (but are relayed and mined on Testnet). However, if anyone puts such a transaction in a block, it will be accepted by all nodes. In practice it means that unusual transactions will take more time to get included in the blockchain. If some kind of non-standard transaction becomes useful and popular, it may get named standard and adopted by users.
+
+=== See also
+
+Standard Transaction
+
+== Nonce
+
+Stands for “number used once”. A 32-bit number in a link:../b/Block_Header.asciidoc[block header] which is iterated during a search for proof-of-work. Each time the nonce is changed, the hash of the block header is recalculated. If nonce overflows before valid proof-of-work is found, an extra nonce is incremented and placed in the coinbase script.
+
+Alternatively, one may change a merkle tree of transactions or a timestamp.
+
+== Opcode
+
+An 8-bit code of a script operation. Codes from 0x01 to 0x4B (decimal 75) are interpreted as a length of data to be pushed on the stack of the interpreter (data bytes follow the opcode). Other codes are either do something interesting, or disabled and cause transaction verification to fail, or do nothing (reserved for future use).
+
+=== See also
+
+Script
+
+== Orphan
+
+See Orphaned Block
+
+== Orphaned Block
+
+A valid block that is no longer a part of a main chain. Usually happens when two or more blocks of the same height are produced at the same time. When one of them becomes a part of the main chain, others are considered orphaned. Orphans also may happen when the blockchain is forked due to an attack (see 51% attack) or a bug. Then a chain of several blocks may become abandoned. Usually a transaction is included in all blocks of the same height, so its confirmation is not delayed and there is no double spend.
+
+=== See also
+
+Fork
+
+== Output
+
+See Transaction Output
+
+== P2SH
+
+See Pay-to-Script Hash
+
+== Paper Wallet
+
+A form of cold storage where a private key for a Bitcoin address is printed on a piece of paper (with or without encryption) and then all traces of the key are removed from the computer where it was generated. To redeem bitcoins, a key must be imported in the wallet application so it can sign a transaction.
+
+=== See also
+
+Casascius Coins
+
+== Pay-To-Script Hash
+
+A type of the script and address that allows sending bitcoins to arbitrary complex scripts using a compact hash of that script. This allows payer to pay much smaller transaction fees and not wait very long for a non-standard transaction to get included in the blockchain. Then the actual script matching the hash must be provided by the payee when redeeming the funds. P2SH addresses are encoded in Base58Check just like regular public keys and start with number “3”.
+
+== Pool
+
+A collection of mining clients which collectively mine a block, and then split the reward between them. Mining pools are a useful way to increase your probability of successfully mining a block as the difficulty rises.
+
+== Pre-mining
+
+The mining of coins by a cryptocurrency’s founder before that coin has been announced and details released to others who may wish to mine the coin. Pre-mining is a common technique used with scamcoins, although not all pre-mined coins are scamcoins.
+
+== Private Key
+
+A 256-bit number used in the ECDSA algorithm to create transaction signatures in order to prove ownership of certain amount of bitcoins.
+
+It can also be used in arbitrary Elliptic Curve Arithmetic operations. Private keys are stored within wallet applications and are usually encrypted with a pass phrase. Private keys may be completely random (see Key Pool) or generated from a single secret number (“seed”).
+
+=== See also
+
+Deterministic Wallet
+
+== Proof of Stake
+
+An alternative to proof of work, in which your existing stake in a currency (the amount of that currency that you hold) is used to calculate the amount of that currency that you can mine.
+
+== Proof-of-Work
+
+A number that is provably hard to compute. That is, it takes measurable amount of time and/or computational power (energy) to produce. In Bitcoin it is a hash of a block header. A block is considered valid only if its hash is lower than the current target (roughly, starts with a certain amount of zero bits). Each block refers to a previous block thus accumulating previous proof-of-work and forming a blockchain.
+
+Proof-of-work is not the only requirement, but an important one to make sure that it is economically infeasible to produce an alternative history of transactions with the same accumulated work. Each client can independently consider the most difficult chain of valid blocks as the “true” history of transactions, without need to trust any source that provides the blocks.
+
+Note that owning a very large amount of computational power does not override other rules enforced by every client. Ill-formed blocks or blocks containing invalid transactions are rejected no matter how difficult they were to produce.
+
+== Public Key
+
+A 2D point on an elliptic curve secp256k1 that is produced by multiplying a predefined “generator” point by a private key. Usually it is represented by a pair of 256-bit numbers (“uncompressed public key”), but can also be compressed to just one 256-bit number (at the slight expense of CPU time to decode an uncompressed number).
+
+A special hash of a public key is called an address. Typical Bitcoin transactions contain public keys or addresses in the output scripts and signatures in the input scripts.
+
+== Reference Implementation
+
+BitcoinQt (or BitcoinD) is the most used full node implementation, so it is considered a reference for other implementations. If an alternative implementation is not compatible with BitcoinQt it may be forked, that is it will not see the same main chain as the rest of the network running BitcoinQt
+
+== Relaying Transactions
+
+Connected Bitcoin nodes relay new transactions between each other on best effort basis in order to send them to the mining nodes. Some transactions may not be relayed by all nodes. E.g. non-standard transactions, or transactions without a minimum fee.
+
+The Bitcoin message protocol is not the only way to send the transaction. One may also send it directly to a miner, or mine it themselves, or send it directly to the payee and make them to relay or mine it.
+
+== Reorganisation
+
+An event in the node when one or more blocks in the main chain become orphaned. Usually, newly received blocks are extending the existing main chain. Sometimes (4-6 times a week) a couple of blocks of the same height are produced almost simultaneously and for a short period of time some nodes may see one block as a tip of the main chain which will be eventually replaced by a more difficult block(s). Each transaction in the orphaned blocks either becomes invalid (if already included in the main chain block) or becomes unconfirmed and moved to the mempool. In case of a major bug or a 51% attack, reorganisation may involve reorganising more than one block.
+
+== Reward
+
+Amount of newly generated bitcoins that a miner may claim in a new block. The first transaction in the block allows miner to claim currently allowed reward as well as all transaction fees from all transactions in the block. The reward is halved every 210 000 blocks, approximately every 4 years.
+
+As of April 26, 2014 the reward is 25 BTC (the first halving occurred in December 2012).
+
+For security reasons, rewards cannot be spent before 100 blocks are built on top of the current block.
+
+== SHA-256
+
+The cryptographic function used as the basis for bitcoin’s proof of work system.
+
+== Satoshi
+
+The first name of the Bitcoin's creator Satoshi Nakamoto and also the name of the smallest unit used in transactions.
+
+1 bitcoin (BTC) is equal to 100 million satoshis.
+
+== Satoshi Nakamoto
+
+A pseudonym of an author of initial Bitcoin implementation.
+
+There are multitude of speculations on who and how many people worked on Bitcoin, of which nationality or age, but no one has any evidence to say anything definitive on that matter.
+
+== Script
+
+A compact turing-incomplete programming language used in transaction inputs and outputs.
+
+Scripts are interpreted by a Forth-like stack machine: each operation manipulates data on the stack. Most scripts follow the standard pattern and verify the digital signature provided in the transaction input against a public key provided in the previous transaction's output. Both signatures and public keys are provided using scripts.
+
+Scripts may contain complex conditions, but can never change amounts being transferred. Amount is stored in a separate field in a transaction output.
+
+== ScriptPubKey
+
+Original name in BitcoinD for a transaction output script. Typically, output scripts contain public keys (or their hashes; See address) that allow only owner of a corresponding private key to redeem the bitcoins in the output.
+
+== Scrypt
+
+An alternative proof of work system to SHA-256, designed to be particularly friendly to CPU and GPU miners, while offering little advantage to ASIC miners.
+
+== Secret Key
+
+Either the private key or an encryption key used in encrypted wallets.
+
+The Bitcoin protocol does not use encryption anywhere, so a secret key typically means a private key used for signing transactions.
+
+== Sequence
+
+A 32-bit unsigned integer in a transaction input used to replace older version of a transaction by a newer one. It's only used when the lock time is not zero. A transaction is not considered valid until the sequence number is 0xFFFFFFFF. By default, the sequence is 0xFFFFFFFF.
+
+== Signature
+
+A sequence of bytes that proves that a piece of data is acknowledged by a person holding a certain public key. Bitcoin uses [ECDSA] for signing transactions. Amounts of bitcoins are sent through a chain of transactions: from one to another. Every transaction must provide a signature matching a public key defined in the previous transaction. This way only a proper owner a secret private key associated with a given public key can spend bitcoins further.
+
+== Simplified Payment Verification
+
+It's usually abbreviated as SPV
+
+It's a scheme to validate transactions without storing the whole blockchain (only block headers) and without trusting any external service.
+
+Every transaction must be present with all its parent and sibling hashes in a merkle tree up to the root. SPV client trusts the most difficult chain of block headers and can validate if the transaction indeed belongs to a certain block header. Since SPV does not validate all transactions, a 51% attack may not only cause a double spend (like with full nodes), but also make a completely invalid payment with bitcoins created from nowhere. However, this kind of attack is very costly and probably more expensive than a product in question.
+
+The Bitcoinj library implements SPV functionality.
+
+== Soft Fork
+
+Sometimes the soft fork refers to an important change of software behaviour that is not a hard fork (e.g. changing mining fee policy).
+
+=== See also
+
+Hard Fork
+Fork
+
+== Spam
+
+Incorrect peer-to-peer messages (like sending invalid transactions) may be considered a Denial of Service attack (see DoS). Valid transactions sending very tiny amounts and/or having low mining fees are called dust by some people. The protocol itself does not define which [Transaction|[transactions]] are not worth relaying or mining, it's a decision of every individual node. Any valid transaction in the blockchain must be accepted by the node if it wishes to accept the remaining blocks, so transaction censorship only means increased confirmation delays.
+
+Individual payees may also blacklist certain addresses (refuse to accept payments from some addresses), but that's too easy to work around using mixing.
+
+== Spent Output
+
+A transaction output can be spent only once: when another valid transaction makes a reference to this output from its own input.
+
+When another transaction attempts to spend the same output, it will be rejected by the nodes already seeing the first transaction. The blockchain as a proof-of-work scheme allows every node to agree on which transaction was indeed the first one. The whole transaction is considered spent when all its outputs are spent.
+
+== Split
+
+A split of a blockchain.
+
+=== See also
+
+Fork
+
+== Stale
+
+When a bitcoin block is successfully hashed, any others attempting to hash it may as well stop, because it is now ‘stale'. They would simply be repeating work that someone else has already done, for no reward. The term is also used in mining pools to describe a share of a hashing job that has already been completed.
+
+== Standard Transaction
+
+Some transactions are considered standard, meaning they are relayed and mined by most nodes.
+
+More complex transactions could be buggy or cause DoS attacks on the network, so they are considered non-standard and not relayed or mined by most nodes. Both standard and non-standard transactions are valid and once included in the blockchain, will be recognised by all [Node|[nodes]].
+
+Standard transactions are:
+1. sending to a public key,
+2. sending to an address,
+3. sending to a P2SH address,
+4. sending to an m-of-n multi-signature transaction where N is 3 or less.
+
+== Taint
+
+An analysis of how closely related two addresses are when they have both held a particular bitcoin. A taint analysis could be used to determine how many steps it took for bitcoins to move from an address known for stolen coins, to the current address.
+
+== Target
+
+A 256-bit number that puts an upper limit for a block header hash to be valid. The lower the target is, the higher the difficulty to find a valid hash.
+
+The maximum (easiest) target is 0x00000000FFFF0000000000000000000000000000000000000000000000000000.
+
+The difficulty and the target are adjusted every 2016 blocks (approx. 2 weeks) to keep interval between the blocks close to 10 minutes.
+
+== Testnet
+
+A set of parameters used for testing a Bitcoin network. Testnet is like mainnet, but has a different genesis block (it was reset several times, the latest testnet is Testnet3).
+
+Testnet uses a slightly different address format to avoid confusion with main Bitcoin addresses and all nodes are relaying and mining non-standard transactions.
+
+== Timestamp
+
+UNIX timestamp is a standard representation of time as a number of seconds since January 1st 1970 GMT. It's usually stored in a 32-bit signed integer.
+
+== Transaction
+
+A chunk of binary data that describes how bitcoins are moved from one owner to another. Transactions are stored in the blockchain.
+
+Every transaction (except for coinbase transactions) has a reference to one or more previous transactions (inputs) and one or more rules on how to spend these bitcoins further (outputs).
+
+=== See also
+
+Transaction Input
+Transaction Output
+
+== Transaction Fee
+
+Also known as “miners' fee”, an amount that an author of a transaction pays to a miner who will include the transaction in a block.
+
+The fee is expressed as difference between the sum of all input amounts and a sum of all output amounts.
+
+Unlike traditional payment systems, miners do not explicitly require fees and most miners allow free transactions. All miners are competing between each other for the fees and all transactions are competing for a place in a block.
+
+There are soft rules encoded in most clients that define minimum fees per kilobyte to relay or mine a transaction (mostly to prevent DoS and spam).
+
+Typically, the fee affects the priority of a transaction. As of September 5, 2013 average fees are below 1 BTC per block.
+
+== See also
+
+Reward
+
+== Transaction Input
+
+A part of a transaction that contains a reference to a previous transaction's output and a script that can prove ownership of that output. The script usually contains a signature and thus called scriptSig.
+
+Inputs spend previous outputs completely. So if one needs to pay only a portion of some previous output, the transaction should include extra change output that sends the remaining portion back to its owner (on the same or different address). Coinbase transactions contain only one input with a zeroed reference to a previous transaction and an arbitrary data in place of script.
+
+=== See also
+
+Transaction Output
+
+== Transaction Output
+
+An output contains an amount to be sent and a script that allows further spending. The script typically contains a public key (or an address, a hash of a public key) and a signature verification opcode.
+
+Only an owner of a corresponding private key is able to create another transaction that sends that amount further to someone else.
+
+In every transaction, the sum of output amounts must be equal or less than a sum of all input amounts.
+
+=== See also
+
+Change
+
+== Tx
+
+See Transaction.
+
+== Txin
+
+See Transaction Input.
+
+== Txout
+
+See Transaction Output.
+
+== UTXO Set
+
+A collection of unspent transaction outputs. Typically used in discussions on optimising an ever-growing index of transaction outputs that are not yet spent.
+
+The index is important to efficiently validate newly created transactions. Even if the rate of the new transactions remains constant, the time required to locate and verify [Spent Output|unspent outputs]] grows.
+
+Possible technical solutions include more efficient indexing algorithms and a more performant hardware. BitcoinQt, for example, keeps only an index of outputs matching user's keys and scans the entire blockchain when validating other transactions. A developer of one web wallet service mentioned that they maintained the entire index of UTXO and its size was around 100 Gb when the blockchain itself was only 8 Gb.
+
+Some people seek social methods to solve the problem. For instance, by refusing to relay or mine transactions that are considered dust (containing outputs smaller than a transaction fee required to mine/relay them).== Unconfirmed Transaction
+
+A transaction that is not included in any block. It's also known as a “0-confirmation” transaction.
+
+Unconfirmed transactions are relayed by the nodes and stay in their mempools. An unconfirmed transaction stays in the pool until the node decides to:
+- throw it away,
+- finds it in the blockchain, or
+- includes it in the blockchain itself (if it's a miner).
+
+=== See also
+
+Confirmation Number.
+
+== uBTC
+
+One microbitcoin (0.000001 BTC)
+
+== Vanity Address
+
+A bitcoin address with a desirable pattern, such as a name.
+
+== VarInt
+
+This term may cause confusion as it means different formats in different Bitcoin implementations.
+
+See CompactSize for details.
+
+== Virgin Bitcoin
+
+Bitcoins purchased as a reward for mining a block. These have not yet been spent anywhere.
+
+== Wallet
+
+An application or a service that helps keeping private keys for signing transactions.
+
+A wallet does not keep bitcoins themselves (they are recorded in the blockchain). “Storing bitcoins” usually means storing the keys.
+
+== Web Wallet
+
+A web service providing wallet functionality: ability to store, send and receive bitcoins.
+
+The user has to trust the counter-party to keep their bitcoins securely and ready to redeem at any time. It is very easy to build your own web wallet, so most of them were prone to hacks or outright fraud. The most secure and respected web wallet is Blockchain.info.
+
+Online exchanges also provide wallet functionality, so they can also be considered web wallets. It is not recommended to store large amounts of bitcoins in a web wallet.
+
+== XBT
+
+Informal currency code for 1 bitcoin (defined as 100 000 000 satoshis). Some people proposed using it for 0.01 bitcoin to avoid confusion with BTC. Recently it was reported that it is used in Bloomberg terminal to display a bitcoin price ticker.
+
+=== See also
+
+BTC.
+
+== Zero-Confirmation
+
+See Unconfirmed Transaction and Confirmation Number.
